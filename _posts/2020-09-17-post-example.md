@@ -1,6 +1,6 @@
 ---
 title: "Obra"
 date: 2020-09-17
-categories: ['data']
+categories: jekyll
 ---
 ## in progress
