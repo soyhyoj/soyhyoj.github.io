@@ -2,8 +2,8 @@
 title: HYOLAB
 description: 'Front page'
 url: 'http://soyhyoj.github.io'
-baseurl: ''
-profilepic: '/images/profile_2.jpg'
+baseurl: '/_data'
+profilepic: '/images/profile.jpg'
 bkimage: '/images/bg.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
