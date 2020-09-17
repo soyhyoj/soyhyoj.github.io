@@ -7,11 +7,11 @@
   img: https://www.sfn.org/-/media/Project/SfNOrg/Article-Images/News-and-Calendar/JN_Logo_v2.jpg
   desc: Data cleaning-oriented Natural Language Processing project. Using pubmed's API, information about articles published in JNeurosci during last 10 years were extracted to analyze the most frequent research topics. 
 
-# - name: Jekyll Theme
-#   gh_user: tzuehlke
-#   repo: jekyll-uno-timeline
-#   img: https://raw.githubusercontent.com/tzuehlke/jekyll-uno-timeline/master/screenshot-overview.png
-#   desc: This Jekyll Theme. Based on the Uno-Theme with a list of projects as timeline. Like a business card.
+- name: Mobile Transaction Fraud Detection
+  gh_user: soyhyoj
+  repo: FraudDetectionPaysim
+  img: https://images.unsplash.com/photo-1592772874383-d08932d29db7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=699&q=80
+  desc: Predictive analysis for fraud detection using synthetic mobile money financial log data. Team project.
 
 # - name: Azure Automation Scripts
 #   gh_user: tzuehlke
