@@ -1,0 +1,34 @@
+# Site settings
+title: HYOLAB
+description: 'Front page'
+url: 'http://soyhyoj.github.io'
+baseurl: ''
+profilepic: '/images/hyoj.jpg'
+bkimage: '/images/bg.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
+
+author:
+  name: 'HYOJ'
+  email: soyhyoj@gmail.com
+  twitter_username: _soyhyoj
+  github_username:  soyhyoj
+  linkedin_username:  soyhyoj
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
