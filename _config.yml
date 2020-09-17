@@ -16,8 +16,19 @@ author:
   github_username:  soyhyoj
   linkedin_username:  soyhyoj
 
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+
+
 # Build settings
 destination: _site
+paginate: 10
 markdown: kramdown
 highlighter: rouge
 
@@ -32,4 +43,4 @@ kramdown:
   hard_wrap: false
 
 #plugins: ['jekyll-paginate']
-exclude: ['README.md', 'screenshot-overview.png']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot-overview.png']
