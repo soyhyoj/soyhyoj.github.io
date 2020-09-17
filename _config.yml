@@ -5,6 +5,7 @@ url: 'http://soyhyoj.github.io'
 baseurl: ''
 profilepic: '/images/profile.jpg'
 bkimage: '/images/bg.jpg'
+logo: '/images/logo.png'
 google_analytics: UA-178278212-1
 font_awesome: 'XXXXXXXXXX.js'
 
