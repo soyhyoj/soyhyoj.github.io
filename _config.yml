@@ -1,4 +1,5 @@
 # Site settings
+# Site settings
 title: HYOLAB
 description: 'Front page'
 url: 'http://soyhyoj.github.io'
@@ -8,6 +9,7 @@ bkimage: '/images/bg.jpg'
 logo: '/images/logo.png'
 google_analytics: UA-178278212-1
 font_awesome: 'XXXXXXXXXX.js'
+# disqus_shortname: 'your-disqus-name'
 
 author:
   name: 'soyhyoj'
@@ -24,11 +26,10 @@ defaults:
     values:
         layout: 'post'
 
-
-
 # Build settings
 destination: _site
 paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
 
@@ -42,5 +43,5 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-#plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot-overview.png']
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
