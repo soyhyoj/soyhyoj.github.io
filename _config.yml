@@ -2,10 +2,10 @@
 title: HYOLAB
 description: 'Front page'
 url: 'http://soyhyoj.github.io'
-baseurl: '/ResearchTrendAnalysis'
+baseurl: ''
 profilepic: '/images/profile.jpg'
 bkimage: '/images/bg.jpg'
-google_analytics: UA-XXXXXX-X
+google_analytics: UA-178278212-1
 font_awesome: 'XXXXXXXXXX.js'
 
 author:
