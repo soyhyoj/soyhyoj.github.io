@@ -3,7 +3,7 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Research Trend Analysis
   gh_user: soyhyoj
-  repo: CodeOp-DA1-ResearchTrendAnalysis
+  repo: ResearchTrendAnalysis
   img: https://www.sfn.org/-/media/Project/SfNOrg/Article-Images/News-and-Calendar/JN_Logo_v2.jpg
   desc: Data cleaning-oriented Natural Language Processing project. Using pubmed's API, information about articles published in JNeurosci during last 10 years were extracted to analyze the most frequent research topics. 
 
