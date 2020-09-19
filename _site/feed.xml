@@ -5,9 +5,37 @@
     <description>Data Explorer | Neuroscientist | Python enthusiast</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Sep 2020 18:06:54 +0200</pubDate>
-    <lastBuildDate>Sat, 19 Sep 2020 18:06:54 +0200</lastBuildDate>
+    <pubDate>Sat, 19 Sep 2020 19:08:08 +0200</pubDate>
+    <lastBuildDate>Sat, 19 Sep 2020 19:08:08 +0200</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Project: Mobile Transaction Fraud Detection</title>
+        <description>&lt;p&gt;In this 2-week project, I aimed to try something completely different from what I practiced in the &lt;a href=&quot;https://soyhyoj.github.io/2020/project-research-trend-analysis/&quot;&gt;previous project&lt;/a&gt;. Instead of the text data, I got 6M rows of numbers. Rather than wrangling the data for a purely personal curiosity, I built predictive models which can potentially address a practical solution for mobile buisiness to detect frauds.&lt;/p&gt;
+
+&lt;p&gt;This was a collaborative project done by &lt;a href=&quot;https://github.com/mariagaya&quot;&gt;Maria Gayà Fiol&lt;/a&gt; and myself. The data we selected was &lt;a href=&quot;https://www.kaggle.com/ntnu-testimon/paysim1&quot;&gt;a simulated mobile money transaction log available on the Kaggle website&lt;/a&gt;. Our goal was to understand the features related to fraudulent profit by exploratory data analysis and make good predictions on the unseen data based on our findings. As to enhance prediction performance, we implemented different machine learning algorithms and evaluated each model.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&quot;https://github.com/soyhyoj/FraudDetectionPaysim&quot;&gt;this public repo&lt;/a&gt;, only my part of the data analysis and modeling part is available.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 19 Sep 2020 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2020/project-fraud-detection/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/project-fraud-detection/</guid>
+        
+        <category>Mobile</category>
+        
+        <category>Fraud detection</category>
+        
+        <category>Predictive Analysis</category>
+        
+        <category>Machine Learning</category>
+        
+        <category>CodeOp</category>
+        
+        
+        <category>project</category>
+        
+      </item>
     
       <item>
         <title>Project: Research Trend Analysis</title>
