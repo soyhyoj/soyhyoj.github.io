@@ -12,19 +12,4 @@ As a neuroscience geek who has recently moved on to the field of data science, i
 This 2-week sprint project was a perfect opportunity for me to leverage common NLP techniques in order to find an answer to my question:
 Were the rising topics that I read as trends result of my attentional bias or was there a real fuss about them?
 
-
-<!-- ### Objective
-From the beginning, this project was meant to be a data cleaning-oriented since it is one of my favorite works in data analytics. 
-
-### Data mining
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/), the most important web archive for biomedical and life sciences journal literature, provides APIs to 
-a library called [PyMed](https://github.com/PyMed/PyMed).
-
-### Data cleaning
-
-
-### Result -->
-
-
-
 [Click to check this project](https://github.com/soyhyoj/ResearchTrendAnalysis)
