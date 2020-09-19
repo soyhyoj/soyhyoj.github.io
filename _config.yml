@@ -24,7 +24,7 @@ defaults:
     values:
         layout: 'post'
         image:
-          path: /images/logo_png
+          path: /images/logo_.png
 
 
 # Build settings
