@@ -19,12 +19,10 @@
 
   <!-- Twitter cards -->
   <meta name="twitter:card"  content="summary">
-  <meta name="twitter:title" content="HYOLAB">
-  <meta name="twitter:description" content="Data Explorer | Neuroscientist | Python enthusiast">
-  
-  <meta name="twitter:creator" content="_soyhyoj">
-  
-  
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:creator" content="{{ site.author.twitter_username }}">
+  <meta name="twitter:image" content="{{ site.title_image }}">
   <!-- end of Twitter cards -->
 
   <meta property="og:type" content="article">
@@ -41,7 +39,7 @@
   <meta name="msapplication-TileImage" content="/images/favicons/mstile-150x150.png">
   <meta name="theme-color" content="#ffffff">
   
-  <link rel="stylesheet" href="/css/main.css?1600545570010428216">
+  <link rel="stylesheet" href="/css/main.css?1600546347027652130">
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="HYOLAB" href="/feed.xml">
 </head>
@@ -188,7 +186,7 @@
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="/js/main.js?1600545570010428216"></script>
+<script type="text/javascript" src="/js/main.js?1600546347027652130"></script>
 
 
     </div>
