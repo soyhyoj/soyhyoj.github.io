@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HYOLAB</title>
-    <description>Data Analyst. Neuroscientist. Python enthusiast.</description>
+    <description>Data Explorer | Neuroscientist | Python enthusiast</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Sep 2020 18:42:07 +0200</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2020 18:42:07 +0200</lastBuildDate>
+    <pubDate>Sat, 19 Sep 2020 12:56:06 +0200</pubDate>
+    <lastBuildDate>Sat, 19 Sep 2020 12:56:06 +0200</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -33,8 +33,8 @@ a library called [PyMed](https://github.com/PyMed/PyMed).
 &lt;p&gt;&lt;a href=&quot;https://github.com/soyhyoj/ResearchTrendAnalysis&quot;&gt;Click to check this project&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 17 Sep 2020 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/2020/post-example/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020/post-example/</guid>
+        <link>http://localhost:4000/2020/project-research-trend-analysis/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/project-research-trend-analysis/</guid>
         
         <category>Neuroscience</category>
         
