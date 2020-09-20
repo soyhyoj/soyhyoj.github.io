@@ -13,3 +13,5 @@ This 2-week sprint project was a perfect opportunity for me to leverage common N
 Were the rising topics that I read as trends result of my attentional bias or was there a real fuss about them?
 
 [Click to check this project](https://github.com/soyhyoj/ResearchTrendAnalysis)
+
+<img src="/images/project-research-trend.png" alt="hi" class="inline"/>
