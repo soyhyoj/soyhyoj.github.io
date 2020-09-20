@@ -24,9 +24,6 @@ defaults:
       type: 'posts'
     values:
         layout: 'post'
-    image:
-      path: /images/logo_.png
-
 
 # Build settings
 destination: _site
