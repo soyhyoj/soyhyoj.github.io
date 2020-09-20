@@ -14,4 +14,4 @@ Were the rising topics that I read as trends result of my attentional bias or wa
 
 [Click to check this project](https://github.com/soyhyoj/ResearchTrendAnalysis)
 
-<img src="images/project-research-trend.png" alt="hi" class="inline"/>
+![term-frequency](/images/project-research-trend.png){:class="img-responsive"}
