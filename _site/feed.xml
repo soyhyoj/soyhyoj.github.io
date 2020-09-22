@@ -5,8 +5,8 @@
     <description>Data explorer who used to study brain</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 22 Sep 2020 14:20:53 +0200</pubDate>
-    <lastBuildDate>Tue, 22 Sep 2020 14:20:53 +0200</lastBuildDate>
+    <pubDate>Tue, 22 Sep 2020 14:36:11 +0200</pubDate>
+    <lastBuildDate>Tue, 22 Sep 2020 14:36:11 +0200</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -58,9 +58,9 @@ Were the rising topics that I read as trends result of my attentional bias or wa
 
 &lt;p&gt;From the beginning, this project was meant to be a cleaning-oriented one and I definitely enjoyed the wrangling part a lot. But the best part of this work is that I actually got to visualize some of the most stunning trends I’ve been observing these years: the efforts in academia to defeat the sexual bias prevalent in animal experiments&lt;br /&gt; (Scroll back and check the keywords including ‘male’ or ‘female’ from the graph above. What you see in the graph is the changes in the relative term frequency of indicated keywords during the last 10 years.)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3008499/&quot;&gt;Female mammals have long been neglected in biomedical research&lt;/a&gt; and not until recently did the investigators considered female samples for behavioral experiments for the ‘consistency’ of their results. In 2012, I was actually advised not to include female animals for behavior studies since ‘female behaviors are unstable and it can cause trouble when trying to publish the work’.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3008499/&quot;&gt;Female mammals have long been neglected in biomedical research&lt;/a&gt; and not until recently did the investigators consider female samples for behavioral experiments in order to ensure the ‘consistency’ of their results. In 2012, I was actually advised not to include female animals for behavior studies since ‘female behaviors are unstable and it can only cause trouble when trying to publish the work’.&lt;/p&gt;
 
-&lt;p&gt;Now the situation has changed. All the researchers have obligation to justify their choice when the study was based on a single-sex group (at least in the European research centers where I worked). And this inclusion kicked in quite radically around the year of 2016, as the result of this analysis suggests. Probably we cannot neglect the fact that the time coincides with when &lt;a href=&quot;https://grants.nih.gov/grants/guide/notice-files/not-od-15-102.html&quot;&gt;the National Institutes of Health (NIH) grants started to ask for all applicants to design experiments accounting for Sex as a Biological Variable (SABV)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now the situation has changed. All the researchers have obligation to justify their choice when the study was based on a single-sex group (at least in the European research centers where I was belonged). And this inclusion kicked in quite radically around the year of 2016, as the result of this analysis suggests. Probably we cannot neglect the fact that this time window coincides with when &lt;a href=&quot;https://grants.nih.gov/grants/guide/notice-files/not-od-15-102.html&quot;&gt;the National Institutes of Health (NIH) grants started to ask for all applicants to design experiments accounting for Sex as a Biological Variable (SABV)&lt;/a&gt;. Now the scientists are strongly encouraged to involve both sexes in their study and the effort has been visible at least from my point of view.&lt;/p&gt;
 
 &lt;p&gt;OK, so the most frequently appeared terms over the last 3-4 years have been &lt;strong&gt;‘female’ &amp;amp; ‘male’&lt;/strong&gt; with a reason. What else did I find from this data?&lt;/p&gt;
 
