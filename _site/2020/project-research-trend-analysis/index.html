@@ -48,7 +48,7 @@
   <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
   
-  <link rel="stylesheet" href="/css/main.css?1600631079872605298">
+  <link rel="stylesheet" href="/css/main.css?1600776904631195701">
   <link rel="canonical" href="http://localhost:4000/2020/project-research-trend-analysis/">
   <link rel="alternate" type="application/rss+xml" title="HYOLAB" href="/feed.xml">
 </head>
@@ -70,7 +70,7 @@
           <h1 class="panel-cover__title panel-title">HYOLAB</h1>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description">Data Explorer | Neuroscientist | Python enthusiast</p>
+        <p class="panel-cover__description">Data explorer who used to study brain</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
@@ -162,14 +162,26 @@
   <section class="post">
     <p>As a neuroscience geek who has recently moved on to the field of data science, it was very clear to me that the first personal analytics project had to be something related to my dear past experience of being a neuroscientist.</p>
 
-<p><a href="https://www.jneurosci.org/">The Journal of Neuroscience</a>, a weekly peer-reviewed journal published by <a href="https://www.sfn.org/">the Society for Neuroscience</a>, is probably the journal which I (like any other scientists working in this domain) have read the most while designing, developing and concluding experiments.</p>
+<p><a href="https://www.jneurosci.org/">The Journal of Neuroscience</a>, a weekly peer-reviewed journal published by <a href="https://www.sfn.org/">the Society for Neuroscience</a>, is probably one of the journals that I have read the most while designing, developing and conducting experiments.</p>
 
 <p>This 2-week sprint project was a perfect opportunity for me to leverage common NLP techniques in order to find an answer to my question:
 Were the rising topics that I read as trends result of my attentional bias or was there a real fuss about them?</p>
 
-<p><a href="https://github.com/soyhyoj/ResearchTrendAnalysis">Click to check this project</a></p>
-
 <p><img src="/images/project-research-trend.png" alt="term-frequency" class="img-responsive" /></p>
+
+<p>From the beginning, this project was meant to be a cleaning-oriented one and I definitely enjoyed the wrangling part a lot. But the best part of this work is that I actually got to visualize some of the most stunning trends I’ve been observing these years: the efforts in academia to defeat the sexual bias prevalent in animal experiments (scroll back and check the keywords including ‘male’ or ‘female’ from the graph above. What you see in the graph is the changes in the relative term frequency of indicated keywords during the last 10 years.)</p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3008499/">Female mammals have long been neglected in biomedical research</a> and not until recently did the investigators selectively choose male animals for behavioral experiments for the ‘consistency’ of their results. In 2012, I was actually advised not to include female animals to the behavior studies since ‘female behaviors are unstable and it can cause trouble when trying to publish the work’.</p>
+
+<p>Now the situation has changed. All the researchers have obligation to justify their choice when the study was based on a single-sex group (at least in the European research centers where I worked). And this inclusion kicked in quite radically around the year of 2016, as the result of this analysis suggests. Probably we cannot neglect the fact that the time coincides with when <a href="https://grants.nih.gov/grants/guide/notice-files/not-od-15-102.html">the National Institutes of Health (NIH) grants started to ask for all applicants to design experiments accounting for Sex as a Biological Variable (SABV)</a>.</p>
+
+<p>OK, so the most frequently appeared terms over the last 3-4 years have been <strong>‘female’ &amp; ‘male’</strong> with a reason. What else did I find from this data?</p>
+
+<p>Well, rather traditional subjects such as <strong>perception</strong> (keywords: ‘hair cell’, ‘visual cortex’), <strong>decision making</strong> (keyword: ‘prefrontal cortex’), <strong>memory</strong> (keywords: ‘synaptic plasticity’, ‘working memory’) and <strong>brain activity monitoring</strong> (keyword: ‘firing rate’, ‘action potential’, ‘magnetic resonance’, ‘neural activity’) were captured and they are actually steady-selling topics for over decades with some ebbs and flows.</p>
+
+<p>This project has some room for improvement. Some articles of particular releases were not collected due to API problems. Also, the final selection of terms can be refined by filtering out generic terms like ‘mechanism underlying’, ‘present study’, or ‘significance statement’ (these are not giving any information about the subjects). Lastly, I would like to investigate the possibility to aggregate the popular research terms by topics using modeling in NLP.</p>
+
+<p>For more details on how I processed this data: <a href="https://github.com/soyhyoj/ResearchTrendAnalysis">check my notebooks</a></p>
 
   </section>
 <!--   
@@ -184,7 +196,7 @@ Were the rising topics that I read as trends result of my attentional bias or wa
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="/js/main.js?1600631079872605298"></script>
+<script type="text/javascript" src="/js/main.js?1600776904631195701"></script>
 
 
     </div>

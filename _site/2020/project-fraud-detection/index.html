@@ -7,7 +7,7 @@
   
 
   <title>Project: Mobile Transaction Fraud Detection</title>
-  <meta name="description" content="In this 2-week project, I aimed to try something completely different from what I practiced in the previous project. Instead of the text data, I got 6M rows of numbers. Rather than wrangling the data for a purely personal curiosity, I built predictive models which can potentially address a business solution for mobile fraud detection.
+  <meta name="description" content="In this 2-week project, I aimed to try something completely different from what I practiced in the previous project. Instead of the text data, there were 6M rows of numbers. Rather than munging the data for purely personal interest, I built predictive models that can potentially address a business solution for mobile fraud detection.
 
 ">
   <meta name="author" content="soyhyoj">
@@ -20,7 +20,7 @@
   <!-- Twitter cards -->
   <meta name="twitter:card"  content="summary">
   <meta name="twitter:title" content="Project: Mobile Transaction Fraud Detection">
-  <meta name="twitter:description" content="In this 2-week project, I aimed to try something completely different from what I practiced in the previous project. Instead of the text data, I got 6M rows of numbers. Rather than wrangling the data for a purely personal curiosity, I built predictive models which can potentially address a business solution for mobile fraud detection.
+  <meta name="twitter:description" content="In this 2-week project, I aimed to try something completely different from what I practiced in the previous project. Instead of the text data, there were 6M rows of numbers. Rather than munging the data for purely personal interest, I built predictive models that can potentially address a business solution for mobile fraud detection.
 
 ">
   <meta name="twitter:creator" content="_soyhyoj">
@@ -29,7 +29,7 @@
 
   <meta property="og:type" content="article">
   <meta property="og:title" content="Project: Mobile Transaction Fraud Detection">
-  <meta property="og:description" content="In this 2-week project, I aimed to try something completely different from what I practiced in the previous project. Instead of the text data, I got 6M rows of numbers. Rather than wrangling the data for a purely personal curiosity, I built predictive models which can potentially address a business solution for mobile fraud detection.
+  <meta property="og:description" content="In this 2-week project, I aimed to try something completely different from what I practiced in the previous project. Instead of the text data, there were 6M rows of numbers. Rather than munging the data for purely personal interest, I built predictive models that can potentially address a business solution for mobile fraud detection.
 
 ">
   <meta property="og:image" content="/images/favicons/favicon-194x194.png" />
@@ -48,7 +48,7 @@
   <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
   
-  <link rel="stylesheet" href="/css/main.css?1600631079872605298">
+  <link rel="stylesheet" href="/css/main.css?1600776904631195701">
   <link rel="canonical" href="http://localhost:4000/2020/project-fraud-detection/">
   <link rel="alternate" type="application/rss+xml" title="HYOLAB" href="/feed.xml">
 </head>
@@ -70,7 +70,7 @@
           <h1 class="panel-cover__title panel-title">HYOLAB</h1>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description">Data Explorer | Neuroscientist | Python enthusiast</p>
+        <p class="panel-cover__description">Data explorer who used to study brain</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
@@ -160,11 +160,18 @@
   </header>
 
   <section class="post">
-    <p>In this 2-week project, I aimed to try something completely different from what I practiced in the <a href="https://soyhyoj.github.io/2020/project-research-trend-analysis/">previous project</a>. Instead of the text data, I got 6M rows of numbers. Rather than wrangling the data for a purely personal curiosity, I built predictive models which can potentially address a business solution for mobile fraud detection.</p>
+    <p>In this 2-week project, I aimed to try something completely different from what I practiced in the <a href="https://soyhyoj.github.io/2020/project-research-trend-analysis/">previous project</a>. Instead of the text data, there were 6M rows of numbers. Rather than munging the data for purely personal interest, I built predictive models that can potentially address a business solution for mobile fraud detection.</p>
 
-<p>This was a collaborative project done by <a href="https://github.com/mariagaya">Maria Gayà Fiol</a> and myself. The data we selected was <a href="https://www.kaggle.com/ntnu-testimon/paysim1">a simulated mobile money transaction log available on the Kaggle website</a>. Our goal was to understand the features related to fraudulent profit by exploratory data analysis and make good predictions on the unseen data based on our findings. As to enhance prediction performance, we implemented different machine learning algorithms and evaluated each model.</p>
+<p>This was a collaborative project done by <a href="https://github.com/mariagaya">Maria Gayà Fiol</a> and myself. The data we selected was <a href="https://www.kaggle.com/ntnu-testimon/paysim1">a simulated mobile money transaction log available on the Kaggle website</a>, generated by <a href="https://github.com/EdgarLopezPhD/PaySim">PaySim</a> based on a sample of real transactions extracted from one month of financial logs from a mobile money service implemented in an African country.
+(Reference: E. A. Lopez-Rojas , A. Elmir, and S. Axelsson. “PaySim: A financial mobile money simulator for fraud detection”. In: The 28th European Modeling and Simulation Symposium-EMSS, Larnaca, Cyprus. 2016).</p>
 
-<p>In <a href="https://github.com/soyhyoj/FraudDetectionPaysim">this public repo</a>, only my part of the data analysis and modeling is available.</p>
+<p>Our goal was to understand the features closely related to fraudulent profit by exploratory data analysis and make good predictions on the unseen data based on our findings. To enhance prediction performance, we implemented different machine learning algorithms including logistic regression, random forest, XGBoost, and neural network.</p>
+
+<p>The main challenge of this data was to predict its highly unbalanced binary targets. The population of real fraudulent activity among the entire records was only 0.01%. Therefore, it was crucial to detect all possibly-fraud transactions, lowering the false-negative cases(=fail to detect real frauds; FN) even if it means to involve some false positives(=falsely asserting a case as a fraud when it’s not; FP).</p>
+
+<p>The benefit of this synthetic data is that analysts like us could conduct fraud analytics overcoming the lack of public access to private records. However, its simplicity in feature attributes easily led us to the overfitting of algorithms. As our observation, implementing the logistic regression was enough to detect 99% of the fraud transactions maintaining a relatively low FP rate(6.5%) when introduced ‘class_weight’ hyperparameter to compensate for the imbalance present in the dataset.</p>
+
+<p><a href="https://github.com/soyhyoj/FraudDetectionPaysim">Check this repository where my part of the data analysis and moideling is available.</a></p>
 
 <p><img src="/images/project-fraud-detection.png" alt="confusion-matrix" class="img-responsive" /></p>
 
@@ -181,7 +188,7 @@
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="/js/main.js?1600631079872605298"></script>
+<script type="text/javascript" src="/js/main.js?1600776904631195701"></script>
 
 
     </div>
