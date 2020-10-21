@@ -2,7 +2,7 @@
 title:  "Garbage in, garbage out: Dealing with outliers"
 date:   2020-10-21
 categories: [Interview]
-tags: [Time-series, Data preprocessing, Statistics, Data Analytics]
+tags: [Job search, Data preprocessing, Statistics, Data Analytics]
 ---
 
 Recently I was asked to justify my choice of leaving outliers -instead of removing them- during a technical interview for a data scientist position. The interview was based on a pre-handed take-home test where I provided a time series forecast related to a specific business case.
