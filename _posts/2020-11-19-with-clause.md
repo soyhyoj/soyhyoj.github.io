@@ -1,13 +1,13 @@
 ---
-title:  "With clause"
+title:  "WITH clause"
 date:   2020-11-19
 categories: [Database]
 tags: [Job search, SQL, Database]
 ---
 
-Almost all the technical tests I was given during interview processes helped me to boost my knowledge by looking for better solutions. One of the new concept I have been playing a lot with is **WITH** clause in SQL. With clause is used for creating subquery blocks which are refered as [Common Table Expressions (CTE)](https://docs.oracle.com/cd/E17952_01/mysql-8.0-en/with.html)
+Technical tests given during interview processes have been real boosting materials that led me to look for the better solution to answer the given questions. One of the new techniques I enjoyed using is the **WITH** clause in SQL. It is used for creating subquery blocks which are known as [Common Table Expressions (CTE).](https://docs.oracle.com/cd/E17952_01/mysql-8.0-en/with.html)
 
-This method is an elegant solution when you need to retrieve data and **produce temporary results (e.g. transformed data) that can be referred multiple times within a statement**. Also, it helps to read and understand better subqueries when used in a complex SQL statement.
+This method is an elegant solution when you need to retrieve data and **produce temporary results (e.g. transformed data) that can be referred to multiple times within a statement**. Also, it enhances the readability of subqueries when used in a complex SQL statement.
 
 Here is an example of a query including CTE from my recent [geospatial analysis](https://github.com/soyhyoj/GeospatialAnalysis_NYtaxi).:
 
@@ -30,18 +30,15 @@ Here is an example of a query including CTE from my recent [geospatial analysis]
     LIMIT 10000;
 ```
 
-- As a first step, I retrieved *tpep_pickup_datetime*, *pickup_longitude*, and *pickup_latitude* columns from a table called *taxi* saved in a PostGIS server.
+- As a first step, *tpep_pickup_datetime*, *pickup_longitude*, and *pickup_latitude* columns from a table called *taxi* were retrieved from a PostGIS server.
 
-- Inside this subqquery, a new temporary geometry column called *pickup_point* was created by combining *pickup_longitude*, and *pickup_latitude*.
+- A temporary geometry column called *pickup_point* was created by combining *pickup_longitude*, and *pickup_latitude*.
 
 - The result of this subquery was named as *pickups* and it was referred in the following block to produce a final result.
 
 <br>
 
-Another example I created is practical when you have a series of message records and wants to identify
-    1. Who was the first message sender
-    2. When was the time when the first message was sent
-    3. When was the second message was sent
+Multiple **WITH** clauses can be embedded in a single query. The next example is a part of the queries to analyze a series of message records and it contains two **WITH** clauses.
 
 ```
 with
@@ -84,7 +81,8 @@ select
 	o.city_code,
 	fm.message_sender as first_message_sender,
 	fm.message_sent_time as first_message_time,
-	EXTRACT(EPOCH from(sm.message_sent_time - fm.message_sent_time)) as response_time,
+	EXTRACT(EPOCH from(sm.message_sent_time - fm.message_sent_time))
+        as response_time,
 into table customer_courier_conversations
 from orders as o
 	left join first_messages as fm
@@ -93,10 +91,12 @@ from orders as o
 		on o.order_id = sm.order_id
 ```
 
-- In the first WITH clause, the first sender and message time of each conversation was retrieved as a temporal table called *first_message*
+- In the first **WITH** clause, the sender and time of the first message was retrieved temporally as *first_message*.
 
-- In the second WITH clause, the second message time was retrieved by numbering the order of conversation using **ranking** method and **window** function.
+- In the second **WITH** clause, the time when the second message was sent was retrieved by numbering the order of conversation using **ranking** method and **window** function.
+
+- The final result of the SQL statement was saved as a new table called *customer_courier_conversations*.
 
 <br>
 
-<br>
+In summary, **CTEs** make it easier to understand subqueries by block separation. And by giving different names to the temporal results, they can be retrieved several times inside a SQL statement.
