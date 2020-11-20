@@ -5,7 +5,7 @@ categories: [Database]
 tags: [Job search, SQL, Database]
 ---
 
-Technical tests given during interview processes have been real boosting materials that led me to look for the better solution to answer the given questions. One of the new techniques I enjoyed using is the **WITH** clause in SQL. It is used for creating subquery blocks which are known as [Common Table Expressions (CTE).](https://docs.oracle.com/cd/E17952_01/mysql-8.0-en/with.html)
+Technical tests given during interview processes have been real boosting materials that led me to look for the better solutions to answer the questions. One of the querying techniques I enjoyed using recently is the **WITH** clause. It is used for creating subquery blocks which are known as [Common Table Expressions (CTE).](https://docs.oracle.com/cd/E17952_01/mysql-8.0-en/with.html)
 
 This method is an elegant solution when you need to retrieve data and **produce temporary results (e.g. transformed data) that can be referred to multiple times within a statement**. Also, it enhances the readability of subqueries when used in a complex SQL statement.
 
