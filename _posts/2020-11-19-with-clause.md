@@ -14,14 +14,14 @@ Here is an example of a query including CTE from my recent [geospatial analysis]
 
 ```
 with
-	pickups as
-	(
-		select
-			tpep_pickup_datetime as pickup_time,
-			ST_SetSRID(ST_MakePoint(pickup_longitude, pickup_latitude), 4326)
-			as pickup_point
-		from taxi
-	)
+pickups as
+(
+select
+	tpep_pickup_datetime as pickup_time,
+	ST_SetSRID(ST_MakePoint(pickup_longitude, pickup_latitude), 4326)
+	as pickup_point
+from taxi
+)
 
 select pickups.*, census.geoid
 from pickups, census_blocks as census
@@ -43,39 +43,39 @@ Multiple **WITH** clauses can be embedded in a single query. The next example is
 with
 first_messages as
 (
-	select
-		order_id,
-		message_sent_time,
-		case when from_id = courier_id then 'Courier'
-		else 'Customer'
-		end as message_sender
-	from customer_courier_chat_messages
-	where message_sent_time in
+select
+	order_id,
+	message_sent_time,
+	case when from_id = courier_id then 'Courier'
+	else 'Customer'
+	end as message_sender
+from customer_courier_chat_messages
+where message_sent_time in
 	(
-		select min(message_sent_time)
-		from customer_courier_chat_messages
-		group by order_id
+	select min(message_sent_time)
+	from customer_courier_chat_messages
+	group by order_id
 	)
 ),
 
 second_messages as
 (
-	with message_order as
+with message_order as
 	(
-		select
-			order_id,
-			message_sent_time,
-			rank() over (
-							partition by order_id
-							order by message_sent_time
-						) as message_n
-		from customer_courier_chat_messages 
-	)
 	select
 		order_id,
-		message_sent_time
-	from message_order
-	where message_n = 2
+		message_sent_time,
+		rank() over (
+					partition by order_id
+					order by message_sent_time
+					) as message_n
+	from customer_courier_chat_messages 
+	)
+select
+	order_id,
+	message_sent_time
+from message_order
+where message_n = 2
 )
 
 select  
