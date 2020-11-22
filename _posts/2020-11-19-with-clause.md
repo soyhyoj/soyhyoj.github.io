@@ -13,21 +13,20 @@ Here is an example of a query including CTE from my recent [geospatial analysis]
 
 
 ```
-    with
+with
+	pickups as
+	(
+		select
+			tpep_pickup_datetime as pickup_time,
+			ST_SetSRID(ST_MakePoint(pickup_longitude, pickup_latitude), 4326)
+			as pickup_point
+		from taxi
+	)
 
-        pickups as
-        (
-            select
-                tpep_pickup_datetime as pickup_time,
-                ST_SetSRID(ST_MakePoint(pickup_longitude, pickup_latitude), 4326)
-                as pickup_point
-            from taxi
-        )
-
-    select pickups.*, census.geoid
-    from pickups, census_blocks as census
-    where ST_Contains(census.geometry, pickups.pickup_point)
-    LIMIT 10000;
+select pickups.*, census.geoid
+from pickups, census_blocks as census
+where ST_Contains(census.geometry, pickups.pickup_point)
+LIMIT 10000;
 ```
 
 - As a first step, *tpep_pickup_datetime*, *pickup_longitude*, and *pickup_latitude* columns from a table called *taxi* were retrieved from a PostGIS server.
@@ -50,7 +49,7 @@ first_messages as
 		case when from_id = courier_id then 'Courier'
 		else 'Customer'
 		end as message_sender
-	from customer_courier_chat_messages 
+	from customer_courier_chat_messages
 	where message_sent_time in
 	(
 		select min(message_sent_time)
@@ -66,7 +65,10 @@ second_messages as
 		select
 			order_id,
 			message_sent_time,
-			rank() over (partition by order_id order by message_sent_time) as message_n
+			rank() over (
+							partition by order_id
+							order by message_sent_time
+						) as message_n
 		from customer_courier_chat_messages 
 	)
 	select
