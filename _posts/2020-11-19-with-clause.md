@@ -65,11 +65,9 @@ with message_order as
 	select
 		order_id,
 		message_sent_time,
-		rank() over (
-					partition by order_id
-					order by message_sent_time
-					) as message_n
-	from customer_courier_chat_messages 
+		rank() over (partition by order_id
+			    order by message_sent_time) as message_n
+	from customer_courier_chat_messages
 	)
 select
 	order_id,
