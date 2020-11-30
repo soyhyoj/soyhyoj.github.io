@@ -24,7 +24,7 @@
 
 ">
   <meta name="twitter:creator" content="_soyhyoj">
-  <meta name="twitter:image" content="/images/favicons/favicon-194x194.png" />
+  <meta name="twitter:image" content="/images/profile.jpg" />
   <!-- end of Twitter cards -->
 
   <meta property="og:type" content="article">
@@ -32,9 +32,9 @@
   <meta property="og:description" content="In this 2-week project, I aimed to try something completely different from what I practiced in the previous project. Instead of the text data, there were 6M rows of numbers. Rather than munging the data for purely personal interest, I built predictive models that can potentially address a business solution for mobile fraud detection.
 
 ">
-  <meta property="og:image" content="/images/favicons/favicon-194x194.png" />
+  <meta property="og:image" content="/images/profile.jpg" />
 
-  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <link rel="shortcut icon" href="/images/profile.jpg">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/android-chrome-192x192.png">
@@ -48,7 +48,7 @@
   <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
   
-  <link rel="stylesheet" href="/css/main.css?1600778498027895488">
+  <link rel="stylesheet" href="/css/main.css?1606752950829628822">
   <link rel="canonical" href="http://localhost:4000/2020/project-fraud-detection/">
   <link rel="alternate" type="application/rss+xml" title="HYOLAB" href="/feed.xml">
 </head>
@@ -167,19 +167,28 @@
 
 <p>Our goal was to understand the features closely related to fraudulent profit by exploratory data analysis and make good predictions on the unseen data based on our findings. To enhance prediction performance, we implemented different machine learning algorithms including logistic regression, random forest, XGBoost, and neural network.</p>
 
-<p>The main challenge of this data was to predict its highly unbalanced binary targets. The population of real fraudulent activity among the entire records was only 0.01%. Therefore, it was crucial to detect all possibly-fraud transactions, lowering the false-negative cases(=fail to detect real frauds; FN) even if it means to involve some false positives(=falsely asserting a case as a fraud when it’s not; FP).</p>
+<p>The main challenge of this data was to predict its highly unbalanced binary targets. The population of real fraudulent activity among the entire records was only 0.1%. Therefore, it was crucial to detect all possibly-fraud transactions, lowering the false-negative cases(=fail to detect real frauds; FN) even if it means to involve some false positives(=falsely asserting a case as a fraud when it’s not; FP).</p>
 
 <p>The benefit of this synthetic data is that analysts like us could conduct fraud analytics overcoming the lack of public access to private records. However, its simplicity in feature attributes easily led us to the overfitting of algorithms. As our observation, implementing the logistic regression was enough to detect 99% of the fraud transactions maintaining a relatively low FP rate(6.5%) when introduced ‘class_weight’ hyperparameter to compensate for the imbalance present in the dataset.</p>
 
-<p><a href="https://github.com/soyhyoj/FraudDetectionPaysim">Check this repository where my part of the data analysis and moideling is available.</a></p>
+<p><a href="https://github.com/soyhyoj/FraudDetectionPaysim">Check this repository where my part of the data analysis and modeling is available.</a></p>
 
 <p><img src="/images/project-fraud-detection.png" alt="confusion-matrix" class="img-responsive" /></p>
 
   </section>
-<!--   
+
 </article>
-<!--
--->-->
+
+  <section class="post-full-comments">
+    <script src="https://utteranc.es/client.js"
+        repo="soyhyoj/soyhyoj.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </section>
 
       </div>
 
@@ -188,7 +197,7 @@
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="/js/main.js?1600778498027895488"></script>
+<script type="text/javascript" src="/js/main.js?1606752950829628822"></script>
 
 
     </div>
