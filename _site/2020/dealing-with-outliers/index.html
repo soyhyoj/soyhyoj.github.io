@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+
+  <title>Garbage in, garbage out: Dealing with outliers</title>
+  <meta name="description" content="Recently I was asked to justify my choice of leaving outliers -instead of removing them- during a technical interview for a data scientist position. The interview was based on a pre-handed take-home test where I provided a time series forecast related to a specific business case.
+
+">
+  <meta name="author" content="soyhyoj">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Twitter cards -->
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:title" content="Garbage in, garbage out: Dealing with outliers">
+  <meta name="twitter:description" content="Recently I was asked to justify my choice of leaving outliers -instead of removing them- during a technical interview for a data scientist position. The interview was based on a pre-handed take-home test where I provided a time series forecast related to a specific business case.
+
+">
+  <meta name="twitter:creator" content="_soyhyoj">
+  <meta name="twitter:image" content="/images/profile.jpg" />
+  <!-- end of Twitter cards -->
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Garbage in, garbage out: Dealing with outliers">
+  <meta property="og:description" content="Recently I was asked to justify my choice of leaving outliers -instead of removing them- during a technical interview for a data scientist position. The interview was based on a pre-handed take-home test where I provided a time series forecast related to a specific business case.
+
+">
+  <meta property="og:image" content="/images/profile.jpg" />
+
+  <link rel="shortcut icon" href="/images/profile.jpg">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="194x194" href="/images/favicons/favicon-194x194.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  
+  <link rel="stylesheet" href="/css/main.css?1606752950829628822">
+  <link rel="canonical" href="http://localhost:4000/2020/dealing-with-outliers/">
+  <link rel="alternate" type="application/rss+xml" title="HYOLAB" href="/feed.xml">
+</head>
+
+
+  <body>
+    <span class="mobile btn-mobile-menu">
+  <i class="icon icon-list btn-mobile-menu__icon"></i>
+  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+</span>
+
+<header class="panel-cover" style="background-image: url(/images/bg.jpg)">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+        <a href="/" title="link to home of HYOLAB">
+          <img src="/images/profile.jpg" class="user-image" alt="My Profile Photo">
+          <h1 class="panel-cover__title panel-title">HYOLAB</h1>
+        </a>
+        <hr class="panel-cover__divider">
+        <p class="panel-cover__description">Used to study brain. Now analyzing behavior.</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary">
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/#blog" title="link to HYOLAB blog" class="blog-button">Blog</a></li>
+            </ul>
+          </nav>
+
+          <nav class="cover-navigation navigation--social">
+            <ul class="navigation">
+
+            
+              <!-- Twitter -->
+              <li class="navigation__item">
+                <a href="http://twitter.com/_soyhyoj" title="@_soyhyoj on Twitter" target="_blank">
+                  <i class="icon icon-social-twitter"></i>
+                  <span class="label">Twitter</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- LinkedIn -->
+              <li class="navigation__item">
+                <a href="https://www.linkedin.com/in/soyhyoj" title="soyhyoj on LinkedIn" target="_blank">
+                  <i class="icon icon-social-linkedin"></i>
+                  <span class="label">LinkedIn</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- GitHub -->
+              <li class="navigation__item">
+                <a href="https://www.github.com/soyhyoj" title="soyhyoj on GitHub" target="_blank">
+                  <i class="icon icon-social-github"></i>
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
+            
+
+            
+              <!-- Email -->
+              <li class="navigation__item">
+                <a href="mailto:soyhyoj@gmail.com" title="Email soyhyoj@gmail.com" target="_blank">
+                  <i class="icon icon-mail"></i>
+                  <span class="label">Email</span>
+                </a>
+              </li>
+            
+
+            <!-- RSS 
+            <li class="navigation__item">
+              <a href="/feed.xml" title="Subscribe" target="_blank">
+                <i class="icon icon-rss"></i>
+                <span class="label">RSS</span>
+              </a>
+            </li>-->
+
+            </ul>
+          </nav>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2020-10-21 00:00" class="post-meta__date date">21 Oct 2020</time>
+      
+      &#8226; <span class="post-meta__tags">on <a href="/tags/#Job search">Job search</a>, <a href="/tags/#Data preprocessing">Data preprocessing</a>, <a href="/tags/#Statistics">Statistics</a>, <a href="/tags/#Data Analytics">Data Analytics</a></span>
+      
+    </div>
+    <h1 class="post-title">Garbage in, garbage out: Dealing with outliers</h1>
+  </header>
+
+  <section class="post">
+    <p>Recently I was asked to justify <strong>my choice of leaving outliers -instead of removing them-</strong> during a technical interview for a data scientist position. The interview was based on a pre-handed take-home test where I provided a time series forecast related to a specific business case.</p>
+
+<p>Among the numerous questions I got from two interviewers over an hour, the one about outliers raised me a particular interest. Despite the confidence in my rationale built on a substantial EDA, their response was cluing me that they were clearly not happy with the way I dealt with the outliers. According to the on-site feedback, I had to <strong>exclude those values from the data before fitting a predictive algorithm.</strong></p>
+
+<p>To determine whether to retain, eliminate, or replace detected outliers, one should take into account not only the source/type of the data but also the cause/purpose of the preprocessing. This time I obviously made a naive mistake by betraying the basic principle of computer science: <strong><a href="https://en.wikipedia.org/wiki/Garbage_in,_garbage_out">Garbage in, garbage out</a></strong>. In my defense, there was some transition shock.</p>
+
+<p>The confusion mainly came from the fact that the outliers presented in this particular assignment were <strong>correctly measured</strong> out-of-range values. To add more context, I have been trained to collect and analyze experimental data in biology labs for years. In basic science research, what’s important is what you <strong>observe</strong>, not what you <strong>expect</strong> from the data. Since an extreme value itself is a natural event however rare its occurence, it would be unethical to intentionally exclude a part of the data from the rest <a href="https://bolt.mph.ufl.edu/6050-6052/unit-1/one-quantitative-variable-introduction/understanding-outliers/">without obvious doubt in its acquisition (e.g. failed to control conditions, fundamental errors in measurements).</a></p>
+
+<p>There is no more dreadful and disgusting thing than ‘data manipulation (=fabrication)’ in life science research and selectively choosing which sample to include for statistical testing is one. Thus I was naturally prone to be conservative of some of the data preprocessing techniques (imputing missing values, removing null records, and excluding outliers) and that was clearly a bad practice in machine learning. <a href="http://greenteapress.com/thinkstats2/html/thinkstats2003.html#sec21">Handling outliers can depend on ‘domain knowledge’</a>. It’s what I’ve overlooked in this recent task by naively applying the rule I was familiar with (‘Do not exclude!’) to the data.</p>
+
+<p>Predictive model performance can be negatively impacted by the presence of outliers in the training data. These models, such as linear regression, would require cleanly distributed input to learn the overlying tendency within the data without distortion. The model I implemented for this interview was <strong>Facebook’s Prophet</strong> and its <a href="https://facebook.github.io/prophet/docs/outliers.html">official documents recommends to remove the outliers since the model can handle missing values quite well</a>. OK, I get it now.</p>
+
+<p>A transition takes effort, time, courage, and flexibility - understanding differences and embracing new rules. I didn’t get the job this time but lessons were priceless.</p>
+
+  </section>
+
+</article>
+
+  <section class="post-full-comments">
+    <script src="https://utteranc.es/client.js"
+        repo="soyhyoj/soyhyoj.github.io"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <span class="footer__copyright">&copy; 2020 soyhyoj. All rights reserved.</span>
+</footer>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js?1606752950829628822"></script>
+
+
+    </div>
+  </body>
+</html>
