@@ -5,12 +5,12 @@ categories: [project]
 tags: [Neuroscience, Analysis, Statistics]
 ---
 
-Finally, some cleaning's done on [my very first Jupyter notebooks from 2018-2019](https://github.com/soyhyoj/PGlab). Back then, I wasn't capable of coding from scratch, so I literally copied & pasted chunks of code from the internet, wove them and ran them by hit-or-miss. But thanks to Python's easy syntax and vast online documentations, I managed to read short codes and get a grasp of what's going on. I needed this Python script only for having a preliminary summary inspection of the day, and not for a presentative purpose, so the only concern was how accurate results are. Now that I became a Python practicioner, it was time to do some pruning and organization on these notebooks.
+Finally, some cleaning's done on [my very first Jupyter notebooks from 2018-2019](https://github.com/soyhyoj/PGlab). I literally copied & pasted chunks of code from the internet, wove them and ran them like hit-or-miss, because I was not capable of creating a script from scratch back then. But thanks to Python's easy syntax and vast online documentations, I managed to read short lines of codes and get a grasp of what's going on. The codes were only for having a preliminary, instant insight and not for presentative, so it needed some pruning and organization.
 
-## Why programming was necessary?
+## Why programming?
 
 1. Data size
-    The data I used to deal with were time-series of neural signals (either electrical outputs or images) recorded over varying time length (minutes to hours) and its size would easily take up to GBs. I often suffered from memory issue when tried analyzing the data with Excel and if not, the analysis using Excel eaily took several days. Moreover, the analysis dragging over hundreds of cells was very error-prone.
+    The data I used to deal with were time-series of neural signals (either electrical outputs or images) recorded over varying time length (minutes to hours). The size of each result (raw data) would easily take up to GBs. The raw files were then exported in CSV format by 
 
 2. integrated work
     To analyze this kind of experimental data, multiple software (and machines) were needed at different stages of the work (collection, retrieval, analysis and visualization). And I had so much trouble back in the lab due to a limited access to the licensed softwares I wanted.
