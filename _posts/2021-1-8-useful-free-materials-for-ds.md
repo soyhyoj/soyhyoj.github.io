@@ -8,7 +8,7 @@ tags: [Data Science, Data Analytics]
 ![](/images/bookrmarks.jpg)
 
 
-Here are my bookmarked studying materials and career prep tools. I tried to gather free items that are digestible for newbies (including myself). 
+Here are my bookmarked studying materials and career prep tools which are all free online and digestible for newbies (including myself).
 
 
 ### Statistics
