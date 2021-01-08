@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
 
-  <title>Garbage in, garbage out: Dealing with outliers</title>
-  <meta name="description" content="Recently I was asked to justify my choice of leaving outliers -instead of removing them- during a technical interview for a data scientist position. The interview was based on a pre-handed take-home test where I provided a time series forecast related to a specific business case.
+  <title>Free online resources to build a career in data science</title>
+  <meta name="description" content="
 
 ">
   <meta name="author" content="soyhyoj">
@@ -19,8 +19,8 @@
 
   <!-- Twitter cards -->
   <meta name="twitter:card"  content="summary">
-  <meta name="twitter:title" content="Garbage in, garbage out: Dealing with outliers">
-  <meta name="twitter:description" content="Recently I was asked to justify my choice of leaving outliers -instead of removing them- during a technical interview for a data scientist position. The interview was based on a pre-handed take-home test where I provided a time series forecast related to a specific business case.
+  <meta name="twitter:title" content="Free online resources to build a career in data science">
+  <meta name="twitter:description" content="
 
 ">
   <meta name="twitter:creator" content="_soyhyoj">
@@ -28,8 +28,8 @@
   <!-- end of Twitter cards -->
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Garbage in, garbage out: Dealing with outliers">
-  <meta property="og:description" content="Recently I was asked to justify my choice of leaving outliers -instead of removing them- during a technical interview for a data scientist position. The interview was based on a pre-handed take-home test where I provided a time series forecast related to a specific business case.
+  <meta property="og:title" content="Free online resources to build a career in data science">
+  <meta property="og:description" content="
 
 ">
   <meta property="og:image" content="/images/profile.jpg" />
@@ -49,7 +49,7 @@
   <meta name="theme-color" content="#ffffff">
   
   <link rel="stylesheet" href="/css/main.css?1610122001724075936">
-  <link rel="canonical" href="http://localhost:4000/2020/dealing-with-outliers/">
+  <link rel="canonical" href="http://localhost:4000/2021/useful-free-materials-for-ds/">
   <link rel="alternate" type="application/rss+xml" title="HYOLAB" href="/feed.xml">
 </head>
 
@@ -151,28 +151,81 @@
         <article class="post-container post-container--single">
   <header class="post-header">
     <div class="post-meta">
-      <time datetime="2020-10-21 00:00" class="post-meta__date date">21 Oct 2020</time>
+      <time datetime="2021-01-08 00:00" class="post-meta__date date">8 Jan 2021</time>
       
-      &#8226; <span class="post-meta__tags">on <a href="/tags/#Job search">Job search</a>, <a href="/tags/#Data preprocessing">Data preprocessing</a>, <a href="/tags/#Statistics">Statistics</a>, <a href="/tags/#Data Analytics">Data Analytics</a></span>
+      &#8226; <span class="post-meta__tags">on <a href="/tags/#Data Science">Data Science</a>, <a href="/tags/#Data Analytics">Data Analytics</a></span>
       
     </div>
-    <h1 class="post-title">Garbage in, garbage out: Dealing with outliers</h1>
+    <h1 class="post-title">Free online resources to build a career in data science</h1>
   </header>
 
   <section class="post">
-    <p>Recently I was asked to justify <strong>my choice of leaving outliers -instead of removing them-</strong> during a technical interview for a data scientist position. The interview was based on a pre-handed take-home test where I provided a time series forecast related to a specific business case.</p>
+    <p><img src="/images/bookrmarks.jpg" alt="" /></p>
 
-<p>Among the numerous questions I got from two interviewers over an hour, the one about outliers raised me a particular interest. Despite the confidence in my rationale built on a substantial EDA, their response was cluing me that they were clearly not happy with the way I dealt with the outliers. According to the on-site feedback, I had to <strong>exclude those values from the data before fitting a predictive algorithm.</strong></p>
+<p>Here are my bookmarked studying materials and career prep tools. I tried to gather free items that are digestible for newbies (including myself).</p>
 
-<p>To determine whether to retain, eliminate, or replace detected outliers, one should take into account not only the source/type of the data but also the cause/purpose of the preprocessing. This time I obviously made a naive mistake by betraying the basic principle of computer science: <strong><a href="https://en.wikipedia.org/wiki/Garbage_in,_garbage_out">Garbage in, garbage out</a></strong>. In my defense, there was some transition shock.</p>
+<h3 id="statistics">Statistics</h3>
 
-<p>The confusion mainly came from the fact that the outliers presented in this particular assignment were <strong>correctly measured</strong> out-of-range values. To add more context, I have been trained to collect and analyze experimental data in biology labs for years. In basic science research, what’s important is what you <strong>observe</strong>, not what you <strong>expect</strong> from the data. Since an extreme value itself is a natural event however rare its occurence, it would be unethical to intentionally exclude a part of the data from the rest <a href="https://bolt.mph.ufl.edu/6050-6052/unit-1/one-quantitative-variable-introduction/understanding-outliers/">without obvious doubt in its acquisition (e.g. failed to control conditions, fundamental errors in measurements).</a></p>
+<ul>
+  <li><a href="https://greenteapress.com/wp/think-stats-2e/">Think Stats 2e</a> - Book</li>
+  <li><a href="https://greenteapress.com/wp/think-bayes/">Think Bayes</a> - Book</li>
+  <li><a href="http://ocw.jhsph.edu/index.cfm/go/viewCourse/course/IntroBiostats/coursePage/schedule/">Introduction to Biostatistics</a> offered by The Johns Hopkins University - Lectures
+<br />
+<br /></li>
+</ul>
 
-<p>There is no more dreadful and disgusting thing than ‘data manipulation (=fabrication)’ in life science research and selectively choosing which sample to include for statistical testing is one. Thus I was naturally prone to be conservative of some of the data preprocessing techniques (imputing missing values, removing null records, and excluding outliers) and that was clearly a bad practice in machine learning. <a href="http://greenteapress.com/thinkstats2/html/thinkstats2003.html#sec21">Handling outliers can depend on ‘domain knowledge’</a>. It’s what I’ve overlooked in this recent task by naively applying the rule I was familiar with (‘Do not exclude!’) to the data.</p>
+<h3 id="python--machine-learning">Python + Machine Learning</h3>
 
-<p>Predictive model performance can be negatively impacted by the presence of outliers in the training data. These models, such as linear regression, would require cleanly distributed input to learn the overlying tendency within the data without distortion. The model I implemented for this interview was <strong>Facebook’s Prophet</strong> and its <a href="https://facebook.github.io/prophet/docs/outliers.html">official documents recommends to remove the outliers since the model can handle missing values quite well</a>. OK, I get it now.</p>
+<ul>
+  <li><a href="https://greenteapress.com/wp/think-python-2e/">Think Python 2e</a> - Book</li>
+  <li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data Science Handbook</a> - Book</li>
+  <li><a href="https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0">TensorFlow, Keras and deep learning, without a PhD</a> - Book</li>
+</ul>
 
-<p>A transition takes effort, time, courage, and flexibility - understanding differences and embracing new rules. I didn’t get the job this time but lessons were priceless.</p>
+<p>In youtube, there are countless channels dedicated to the topic. My frequently visited sites are:</p>
+<ul>
+  <li><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi">3Blue1Brown</a> - Cool visualization helps. Neural network series is my favorite.</li>
+  <li><a href="https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ">freeCodeCamp</a></li>
+  <li><a href="https://www.youtube.com/c/DataUmbrella">Data Umbrella</a></li>
+  <li><a href="https://www.youtube.com/user/PyDataTV/playlists">PyData</a>’s local community meetups
+<br />
+<br /></li>
+</ul>
+
+<h3 id="open-data-sources">Open data sources</h3>
+
+<ul>
+  <li><a href="https://www.kaggle.com/">Kaggle</a></li>
+  <li><a href="https://www.drivendata.org/">DRIVENDATA</a> - Kaggle-like website providing data for social good</li>
+  <li><a href="https://github.com/rfordatascience/tidytuesdayover">TidyTuesday</a> - Open datasets provided by R community</li>
+  <li><a href="https://data.humdata.org/">The Humanitarian Data Exchange</a> - Humanitarian database provided by <a href="https://www.unocha.org/">OCHA</a>
+<br />
+<br /></li>
+</ul>
+
+<h3 id="career-advice">Career advice</h3>
+
+<ul>
+  <li><a href="https://podcast.bestbook.cool/">Build a Career in Data Science Podcast</a> - Podcast</li>
+  <li><a href="http://veekaybee.github.io/2019/02/13/data-science-is-different/">Data science is different now</a> - Blog post</li>
+  <li><a href="https://www.youtube.com/watch?v=jKScXsJ5lGI&amp;t=3637s">Advancing Your Data Science Career During the Pandemic</a> - Video</li>
+  <li><a href="https://twitter.com/BecomingDataSci">@BecomingDataSci</a> on twitter and her <a href="http://www.datasciguide.com/">collection of DS learning materials</a></li>
+  <li><a href="https://www.datahelpers.org/">Data Helpers</a> - A list of data professionals who are willing to help newcomers
+<br />
+<br /></li>
+</ul>
+
+<h3 id="cv--résumé">CV / Résumé</h3>
+
+<ul>
+  <li><a href="https://www.overleaf.com/">Overleaf</a> - Great for CV and cover letter; Easy of use &amp; free templates available</li>
+  <li><a href="https://pages.github.com/">GitHub Pages</a> - To build a personalized website for portfolio
+<br />
+<br />
+<br /></li>
+</ul>
+
+<p><em><span>Photo by <a href="https://unsplash.com/@antonio_dicaterina?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Antonio DiCaterina</a> on <a href="https://unsplash.com/s/photos/bookmark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></em></p>
 
   </section>
 

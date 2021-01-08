@@ -5,9 +5,91 @@
     <description>Used to study brain. Now analyzing behavior.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 Jan 2021 14:53:24 +0100</pubDate>
-    <lastBuildDate>Fri, 08 Jan 2021 14:53:24 +0100</lastBuildDate>
+    <pubDate>Fri, 08 Jan 2021 17:06:41 +0100</pubDate>
+    <lastBuildDate>Fri, 08 Jan 2021 17:06:41 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Free online resources to build a career in data science</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/bookrmarks.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are my bookmarked studying materials and career prep tools. I tried to gather free items that are digestible for newbies (including myself).&lt;/p&gt;
+
+&lt;h3 id=&quot;statistics&quot;&gt;Statistics&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://greenteapress.com/wp/think-stats-2e/&quot;&gt;Think Stats 2e&lt;/a&gt; - Book&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://greenteapress.com/wp/think-bayes/&quot;&gt;Think Bayes&lt;/a&gt; - Book&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ocw.jhsph.edu/index.cfm/go/viewCourse/course/IntroBiostats/coursePage/schedule/&quot;&gt;Introduction to Biostatistics&lt;/a&gt; offered by The Johns Hopkins University - Lectures
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;python--machine-learning&quot;&gt;Python + Machine Learning&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://greenteapress.com/wp/think-python-2e/&quot;&gt;Think Python 2e&lt;/a&gt; - Book&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jakevdp.github.io/PythonDataScienceHandbook/&quot;&gt;Python Data Science Handbook&lt;/a&gt; - Book&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0&quot;&gt;TensorFlow, Keras and deep learning, without a PhD&lt;/a&gt; - Book&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In youtube, there are countless channels dedicated to the topic. My frequently visited sites are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&quot;&gt;3Blue1Brown&lt;/a&gt; - Cool visualization helps. Neural network series is my favorite.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ&quot;&gt;freeCodeCamp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/c/DataUmbrella&quot;&gt;Data Umbrella&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/PyDataTV/playlists&quot;&gt;PyData&lt;/a&gt;’s local community meetups
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;open-data-sources&quot;&gt;Open data sources&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.drivendata.org/&quot;&gt;DRIVENDATA&lt;/a&gt; - Kaggle-like website providing data for social good&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rfordatascience/tidytuesdayover&quot;&gt;TidyTuesday&lt;/a&gt; - Open datasets provided by R community&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://data.humdata.org/&quot;&gt;The Humanitarian Data Exchange&lt;/a&gt; - Humanitarian database provided by &lt;a href=&quot;https://www.unocha.org/&quot;&gt;OCHA&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;career-advice&quot;&gt;Career advice&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://podcast.bestbook.cool/&quot;&gt;Build a Career in Data Science Podcast&lt;/a&gt; - Podcast&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://veekaybee.github.io/2019/02/13/data-science-is-different/&quot;&gt;Data science is different now&lt;/a&gt; - Blog post&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=jKScXsJ5lGI&amp;amp;t=3637s&quot;&gt;Advancing Your Data Science Career During the Pandemic&lt;/a&gt; - Video&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/BecomingDataSci&quot;&gt;@BecomingDataSci&lt;/a&gt; on twitter and her &lt;a href=&quot;http://www.datasciguide.com/&quot;&gt;collection of DS learning materials&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.datahelpers.org/&quot;&gt;Data Helpers&lt;/a&gt; - A list of data professionals who are willing to help newcomers
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cv--résumé&quot;&gt;CV / Résumé&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.overleaf.com/&quot;&gt;Overleaf&lt;/a&gt; - Great for CV and cover letter; Easy of use &amp;amp; free templates available&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; - To build a personalized website for portfolio
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@antonio_dicaterina?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Antonio DiCaterina&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/bookmark?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Jan 2021 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2021/useful-free-materials-for-ds/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/useful-free-materials-for-ds/</guid>
+        
+        <category>Data Science</category>
+        
+        <category>Data Analytics</category>
+        
+        
+        <category>Resources</category>
+        
+      </item>
     
       <item>
         <title>WITH clause</title>
