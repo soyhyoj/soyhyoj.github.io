@@ -1,5 +1,5 @@
 ---
-title:  "Free online resources to build a career in data science"
+title:  "What's on an aspiring data scientist's bookmarks"
 date:   2021-1-8
 categories: [Resources]
 tags: [Data Science, Data Analytics]
@@ -7,8 +7,7 @@ tags: [Data Science, Data Analytics]
 
 ![Photo by Antonio DiCaterina on Unsplash](/images/bookmarks.jpg){:class="img-responsive"}
 
-Here are my bookmarked studying materials and career prep tools which are free, available online and digestible for newbies (including myself).
-
+Here are my favorite free online studying materials and career prep tools which are digestible for the newbies building a data science career (including myself).
 
 ### Statistics
 
