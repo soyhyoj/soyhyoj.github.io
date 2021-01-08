@@ -5,8 +5,8 @@
     <description>Used to study brain. Now analyzing behavior.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 Jan 2021 17:17:21 +0100</pubDate>
-    <lastBuildDate>Fri, 08 Jan 2021 17:17:21 +0100</lastBuildDate>
+    <pubDate>Fri, 08 Jan 2021 17:23:05 +0100</pubDate>
+    <lastBuildDate>Fri, 08 Jan 2021 17:23:05 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -48,7 +48,7 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.drivendata.org/&quot;&gt;DRIVENDATA&lt;/a&gt; - Kaggle-like website providing data for social good&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/rfordatascience/tidytuesdayover&quot;&gt;TidyTuesday&lt;/a&gt; - Open datasets provided by R community&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rfordatascience/tidytuesday&quot;&gt;TidyTuesday&lt;/a&gt; - Open datasets provided by R community&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://data.humdata.org/&quot;&gt;The Humanitarian Data Exchange&lt;/a&gt; - Humanitarian database provided by &lt;a href=&quot;https://www.unocha.org/&quot;&gt;OCHA&lt;/a&gt;
 &lt;br /&gt;
 &lt;br /&gt;&lt;/li&gt;

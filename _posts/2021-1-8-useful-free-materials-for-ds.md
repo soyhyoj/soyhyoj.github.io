@@ -37,7 +37,7 @@ In youtube, there are countless channels dedicated to the topic. My frequently v
 
 * [Kaggle](https://www.kaggle.com/)
 * [DRIVENDATA](https://www.drivendata.org/) - Kaggle-like website providing data for social good
-* [TidyTuesday](https://github.com/rfordatascience/tidytuesdayover) - Open datasets provided by R community
+* [TidyTuesday](https://github.com/rfordatascience/tidytuesday) - Open datasets provided by R community
 * [The Humanitarian Data Exchange](https://data.humdata.org/) - Humanitarian database provided by [OCHA](https://www.unocha.org/)
 <br>
 <br>
