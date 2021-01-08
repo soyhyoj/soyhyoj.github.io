@@ -5,8 +5,7 @@ categories: [Resources]
 tags: [Data Science, Data Analytics]
 ---
 
-![](/images/bookrmarks.jpg)
-
+![Photo by Antonio DiCaterina on Unsplash](/images/bookmarks.jpg){:class="img-responsive"}
 
 Here are my bookmarked studying materials and career prep tools which are all free online and digestible for newbies (including myself).
 
@@ -60,7 +59,3 @@ In youtube, there are countless channels dedicated to the topic. My frequently v
 <br>
 <br>
 <br>
-
-
-
-*<span>Photo by <a href="https://unsplash.com/@antonio_dicaterina?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Antonio DiCaterina</a> on <a href="https://unsplash.com/s/photos/bookmark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>*
