@@ -5,9 +5,9 @@ categories: [Resources]
 tags: [Data Science, Data Analytics]
 ---
 
-![Photo by Antonio DiCaterina on Unsplash](/images/bookmarks.jpg){:class="img-responsive"}
-
 Here are my favorite free online studying materials and career prep tools which are digestible for the newbies building a data science career (including myself).
+
+![Photo by Antonio DiCaterina on Unsplash](/images/bookmarks.jpg){:class="img-responsive"}
 
 ### Statistics
 

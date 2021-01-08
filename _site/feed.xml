@@ -5,15 +5,15 @@
     <description>Used to study brain. Now analyzing behavior.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 Jan 2021 17:36:37 +0100</pubDate>
-    <lastBuildDate>Fri, 08 Jan 2021 17:36:37 +0100</lastBuildDate>
+    <pubDate>Fri, 08 Jan 2021 17:42:37 +0100</pubDate>
+    <lastBuildDate>Fri, 08 Jan 2021 17:42:37 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>What's on an aspiring data scientist's bookmarks</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/bookmarks.jpg&quot; alt=&quot;Photo by Antonio DiCaterina on Unsplash&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;Here are my favorite free online studying materials and career prep tools which are digestible for the newbies building a data science career (including myself).&lt;/p&gt;
 
-&lt;p&gt;Here are my favorite free online studying materials and career prep tools which are digestible for the newbies building a data science career (including myself).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/bookmarks.jpg&quot; alt=&quot;Photo by Antonio DiCaterina on Unsplash&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;statistics&quot;&gt;Statistics&lt;/h3&gt;
 
