@@ -29,3 +29,7 @@ R, Python -> transferrable skills
 
 Benefits
 With these codes, the time I put into the preliminary analysis was reduced from days to minutes. I could understand the results of the day in real-time and plan the next experiment based on it.
+
+
+## What's next?
+I'm following this kind tutorial on [Case Studies in Neural Data Analysis](https://mark-kramer.github.io/Case-Studies-Python/02.html#plotting-the-erp)
