@@ -5,9 +5,304 @@
     <description>Used to study brain. Now analyzing behavior.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Jan 2021 12:58:13 +0100</pubDate>
-    <lastBuildDate>Mon, 18 Jan 2021 12:58:13 +0100</lastBuildDate>
+    <pubDate>Mon, 18 Jan 2021 15:49:10 +0100</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2021 15:49:10 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Progress: Studying Data Science</title>
+        <description>&lt;p&gt;I came across with &lt;a href=&quot;https://elpha.com/posts/11dt7c73/hi-aspiring-data-science-learners-and-career-changers&quot;&gt;Wakana’s post&lt;/a&gt; the other day. In this post, she introduced her &lt;a href=&quot;https://www.notion.so/Study-Plan-Progress-for-Data-Science-9afe8bc8478341bbbd1c4a73afc28886&quot;&gt;tracking record on studying data science&lt;/a&gt; which inspired me a lot that I decided to do the same thing :)
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;learn-foundations&quot;&gt;Learn Foundations&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Course&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Source&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Status&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Date of completion&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Python Syntax&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Codecademy&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;04.Oct.2017&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Introduction to Data Science in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;06.Feb.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Intermediate Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;13.Feb.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Python Data Science Toolbox (Part 1)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;19.Feb.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Introduction to SQL&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;26.Feb.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Joining Data in SQL&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10.Mar.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Introduction to Git&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;17.Mar.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Introduction to Shell&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;24.Mar.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Python Data Science Toolbox (Part 2)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;22.Apr.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;pandas Foundations&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;25.Apr.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Introduction to Relational Databases in SQL&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;06.May.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Data Manipulation with pandas&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;11.May.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Merging DataFrames with pandas&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;16.May.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Introduction to Data Visualization with Matplotlib&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;17.May.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Introduction to Data Visualization with Seaborn&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;18.May.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Exploratory Data Analysis in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;03.Jun.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Introduction to Importing Data in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;23.Jun.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Intermediate Importing Data in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;25.Jun.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Cleaning Data in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;06.Jul.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Analyzing Police Activity with pandas&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;07.Jul.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Streamlined Data Ingestion with pandas&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;08.Jul.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Introduction to Databases in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;08.Jul.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Introduction to Data Science in Python by University of Michigan&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Coursera&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;03.Oct.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Time Series Analysis in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;11.Oct.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Working with Geospatial Data in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;DataCamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;03.Nov.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Basic Statistics by University of Amsterdam&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Coursera&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;50%&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Applied Machine Learning in Python by University of Michingan&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Coursera&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;68%&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;hands-on-practice&quot;&gt;Hands-on Practice&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Status&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Link&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Description&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Date&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Research Trend Analysis&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/ResearchTrendAnalysis&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;NLP &amp;amp; text data mining and cleaning&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Aug.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Fraud Detection Paysim&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/FraudDetectionPaysim&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Predictive analysis, Supervised Learning, Classification&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Aug.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;BCN Traffic Forecast&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/BCN-TrafficForecast&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Geospatial data analysis: ETL, EDA, Multiclass classification&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;In-app chat message analysis&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Private&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;SQL&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Oct.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;EDA on e-commerce data&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Private&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Product (delivery app) analytics in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Oct.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Daily Sales Forecast&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Private&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Time Series: Predictive modeling using Profet&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Oct.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;NYC taxi pickups with demographic and socio-economic data by census block group&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/GeospatialAnalysis_NYtaxi&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Geospatial data analysis: ETL, EDA, baseline modeling&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Nov.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;In-app chat message analysis 2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Private&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;SQL&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Dec.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;EDA on e-commerce data 2&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Private&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Product (marketplace app) analytics in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Dec.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;A competition hosted by Driven Data&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;WiDS Datathon 2021&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Datathon&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Jan 2021 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2021/study-plan-ds/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/study-plan-ds/</guid>
+        
+        <category>Data Science</category>
+        
+        <category>Data Analytics</category>
+        
+        
+        <category>Study</category>
+        
+      </item>
     
       <item>
         <title>What's on an aspiring data scientist's bookmarks</title>
