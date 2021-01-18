@@ -5,17 +5,20 @@
     <description>Used to study brain. Now analyzing behavior.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Jan 2021 15:49:10 +0100</pubDate>
-    <lastBuildDate>Mon, 18 Jan 2021 15:49:10 +0100</lastBuildDate>
+    <pubDate>Mon, 18 Jan 2021 16:05:47 +0100</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2021 16:05:47 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Progress: Studying Data Science</title>
-        <description>&lt;p&gt;I came across with &lt;a href=&quot;https://elpha.com/posts/11dt7c73/hi-aspiring-data-science-learners-and-career-changers&quot;&gt;Wakana’s post&lt;/a&gt; the other day. In this post, she introduced her &lt;a href=&quot;https://www.notion.so/Study-Plan-Progress-for-Data-Science-9afe8bc8478341bbbd1c4a73afc28886&quot;&gt;tracking record on studying data science&lt;/a&gt; which inspired me a lot that I decided to do the same thing :)
-&lt;br /&gt;
+        <description>&lt;p&gt;This morning, I came across with &lt;a href=&quot;https://elpha.com/posts/11dt7c73/hi-aspiring-data-science-learners-and-career-changers&quot;&gt;Wakana’s post&lt;/a&gt;, where she shared her &lt;a href=&quot;https://www.notion.so/Study-Plan-Progress-for-Data-Science-9afe8bc8478341bbbd1c4a73afc28886&quot;&gt;tracking record on studying plan &amp;amp; progress on data science&lt;/a&gt;. The project inspired me a lot, so I decided to do the same thing - to keep records of what I’ve been learning :)&lt;/p&gt;
+
+&lt;p&gt;My plan for 2021 is to continue learning mostly from Coursera and &lt;a href=&quot;https://soyhyoj.github.io/2021/useful-ds-resources/&quot;&gt;free online materials that I posted previously&lt;/a&gt;. And no more DataCamp!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;learn-foundations&quot;&gt;Learn Foundations&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Learn Foundations&lt;/strong&gt;&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -160,6 +163,12 @@
       &lt;td style=&quot;text-align: left&quot;&gt;08.Jul.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;26-week (550h) Data Analytics Bootcamp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;CodeOp&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;12.Sep.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Introduction to Data Science in Python by University of Michigan&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Coursera&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
@@ -195,7 +204,7 @@
 &lt;p&gt;&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;hands-on-practice&quot;&gt;Hands-on Practice&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Practice with hands-on projects&lt;/strong&gt;&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -223,13 +232,6 @@
       &lt;td style=&quot;text-align: left&quot;&gt;Aug.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;BCN Traffic Forecast&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/BCN-TrafficForecast&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Geospatial data analysis: ETL, EDA, Multiclass classification&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;In-app chat message analysis&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Private&lt;/td&gt;
@@ -254,7 +256,14 @@
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;NYC taxi pickups with demographic and socio-economic data by census block group&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/GeospatialAnalysis_NYtaxi&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Geospatial data analysis: ETL, EDA, baseline modeling&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Geospatial data analysis: ETL, EDA, baseline modeling, Docker&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Nov.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Scientific Data Analysis&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/PGlab&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Numeric data processing in pandas, matplotlib, Scipy, Numpy&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Nov.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -273,9 +282,9 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;A competition hosted by Driven Data&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;BCN Traffic Forecast&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/BCN-TrafficForecast&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Geospatial data analysis: ETL, EDA, Multiclass classification&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -283,6 +292,13 @@
       &lt;td style=&quot;text-align: left&quot;&gt;WiDS Datathon 2021&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Datathon&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UP Next&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;A competition hosted by Driven Data&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
