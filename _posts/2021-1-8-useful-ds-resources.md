@@ -5,7 +5,7 @@ categories: [Resources]
 tags: [Data Science, Data Analytics]
 ---
 
-Here are my favorite free online studying materials and career prep tools which are digestible for the newbies building a data science career (including myself).
+Here are my favorite free online studying materials and career prep tools for newbies building a data science career in 2021(including myself).
 
 ![Photo by Antonio DiCaterina on Unsplash](/images/bookmarks.jpg){:class="img-responsive"}
 

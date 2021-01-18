@@ -5,14 +5,15 @@ categories: [Study]
 tags: [Data Science, Data Analytics]
 ---
 
-This morning, I came across with [Wakana's post](https://elpha.com/posts/11dt7c73/hi-aspiring-data-science-learners-and-career-changers), where she shared her [tracking record on studying plan & progress on data science](https://www.notion.so/Study-Plan-Progress-for-Data-Science-9afe8bc8478341bbbd1c4a73afc28886). The project inspired me a lot, so I decided to do the same thing - to keep records of what I've been learning :)
+This morning, I came across with [Wakana's post](https://elpha.com/posts/11dt7c73/hi-aspiring-data-science-learners-and-career-changers), where she shared her [tracking record of studying plan & progress on data science](https://www.notion.so/Study-Plan-Progress-for-Data-Science-9afe8bc8478341bbbd1c4a73afc28886). The project inspired me a lot, so I decided to do the same thing - to keep records of what I've been learning :)
 
 My plan for 2021 is to continue learning mostly from Coursera and [free online materials that I posted previously](https://soyhyoj.github.io/2021/useful-ds-resources/). And no more DataCamp!
 
-<br>
+Following are **Courses to learn foundations** and **hands-on projects** I've done so far:
+
 <br>
 
-**Learn Foundations**
+**1. Learn Foundations**
 
 | Course   | Source   | Status  | Date of completion |
 | :------- | :------: | :-----: | :----------------- |
@@ -46,24 +47,23 @@ My plan for 2021 is to continue learning mostly from Coursera and [free online m
 | Applied Machine Learning in Python by University of Michingan | Coursera | <span style="color:green">`68%`</span> |  |
 
 <br>
-<br>
 
-**Practice with hands-on projects**
+**2. Practice - Hands-on projects**
 
-| Status        | Name   | Link   | Description  | Date |
+| Name | Notebook  | Description | Status | Date |
 | :------------ | :----- | :----- | :----------- | :--- |
-| `Completed`   | Research Trend Analysis | [Available](https://github.com/soyhyoj/ResearchTrendAnalysis) | NLP & text data mining and cleaning | Aug.2020 |
-| `Completed`   | Fraud Detection Paysim | [Available](https://github.com/soyhyoj/FraudDetectionPaysim) | Predictive analysis, Supervised Learning, Classification | Aug.2020 |
-| `Completed`   | In-app chat message analysis | Private | SQL | Oct.2020 |
-| `Completed`   | EDA on e-commerce data | Private | Product (delivery app) analytics in Python | Oct.2020 |
-| `Completed`   | Daily Sales Forecast | Private | Time Series: Predictive modeling using Profet | Oct.2020 |
-| `Completed`   | NYC taxi pickups with demographic and socio-economic data by census block group | [Available](https://github.com/soyhyoj/GeospatialAnalysis_NYtaxi) | Geospatial data analysis: ETL, EDA, baseline modeling, Docker | Nov.2020 |
-| `Completed` | Scientific Data Analysis | [Available](https://github.com/soyhyoj/PGlab) | Numeric data processing in pandas, matplotlib, Scipy, Numpy | Nov.2020 |
-| `Completed`   | In-app chat message analysis 2 | Private | SQL | Dec.2020 |
-| `Completed`   | EDA on e-commerce data 2 | Private | Product (marketplace app) analytics in Python | Dec.2020 |
-| <span style="color:green">`Ongoing`</span> | BCN Traffic Forecast | [Available](https://github.com/soyhyoj/BCN-TrafficForecast) | Geospatial data analysis: ETL, EDA, Multiclass classification |  |
-| <span style="color:green">`Ongoing`</span> | WiDS Datathon 2021 | | Datathon | |
-| <span style="color:green">`UP Next`</span> | Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines  |  | A competition hosted by Driven Data |  |
+| Research Trend Analysis | [Link](https://github.com/soyhyoj/ResearchTrendAnalysis) | NLP: text data mining and cleaning | `Completed` | Aug.2020 |
+| Fraud Detection Paysim | [Link](https://github.com/soyhyoj/FraudDetectionPaysim) | Predictive analysis, Supervised Learning, Classification | `Completed` | Aug.2020 |
+| In-app chat message analysis | Private | SQL: Create tables in a database and query data | `Completed` | Oct.2020 |
+| EDA on e-commerce data | Private | Product (delivery app) analytics in Python | `Completed` | Oct.2020 |
+| Daily Sales Forecast | Private | Time Series: Predictive modeling using Profet | `Completed` | Oct.2020 |
+| NYC taxi pickups with demographic and socio-economic data by census block group | [Link](https://github.com/soyhyoj/GeospatialAnalysis_NYtaxi) | Docker, Geospatial data analysis: ETL, EDA, baseline modeling| `Completed` | Nov.2020 |
+| Scientific Data Analysis | [Link](https://github.com/soyhyoj/PGlab) | Numeric data processing in pandas, matplotlib, Scipy, Numpy | `Completed` | Nov.2020 |
+| In-app chat message analysis 2 | Private | SQL | `Completed` | Dec.2020 |
+| EDA on e-commerce data 2 | Private | Product (marketplace app) analytics in Python | `Completed` | Dec.2020 |
+| BCN Traffic Forecast | [Link](https://github.com/soyhyoj/BCN-TrafficForecast) | Geospatial data analysis: ETL, EDA, Multiclass classification| <span style="color:green">`Ongoing`</span>  |  |
+WiDS Datathon 2021 | | Datathon| <span style="color:green">`Ongoing`</span>  | |
+|Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines  |  | A competition hosted by Driven Data | <span style="color:green">`Up Next`</span> |  |
 
 
 <br>

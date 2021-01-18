@@ -5,20 +5,21 @@
     <description>Used to study brain. Now analyzing behavior.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Jan 2021 16:05:47 +0100</pubDate>
-    <lastBuildDate>Mon, 18 Jan 2021 16:05:47 +0100</lastBuildDate>
+    <pubDate>Mon, 18 Jan 2021 17:15:15 +0100</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2021 17:15:15 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Progress: Studying Data Science</title>
-        <description>&lt;p&gt;This morning, I came across with &lt;a href=&quot;https://elpha.com/posts/11dt7c73/hi-aspiring-data-science-learners-and-career-changers&quot;&gt;Wakana’s post&lt;/a&gt;, where she shared her &lt;a href=&quot;https://www.notion.so/Study-Plan-Progress-for-Data-Science-9afe8bc8478341bbbd1c4a73afc28886&quot;&gt;tracking record on studying plan &amp;amp; progress on data science&lt;/a&gt;. The project inspired me a lot, so I decided to do the same thing - to keep records of what I’ve been learning :)&lt;/p&gt;
+        <description>&lt;p&gt;This morning, I came across with &lt;a href=&quot;https://elpha.com/posts/11dt7c73/hi-aspiring-data-science-learners-and-career-changers&quot;&gt;Wakana’s post&lt;/a&gt;, where she shared her &lt;a href=&quot;https://www.notion.so/Study-Plan-Progress-for-Data-Science-9afe8bc8478341bbbd1c4a73afc28886&quot;&gt;tracking record of studying plan &amp;amp; progress on data science&lt;/a&gt;. The project inspired me a lot, so I decided to do the same thing - to keep records of what I’ve been learning :)&lt;/p&gt;
 
 &lt;p&gt;My plan for 2021 is to continue learning mostly from Coursera and &lt;a href=&quot;https://soyhyoj.github.io/2021/useful-ds-resources/&quot;&gt;free online materials that I posted previously&lt;/a&gt;. And no more DataCamp!&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Following are &lt;strong&gt;Courses to learn foundations&lt;/strong&gt; and &lt;strong&gt;hands-on projects&lt;/strong&gt; I’ve done so far:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Learn Foundations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Learn Foundations&lt;/strong&gt;&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -201,104 +202,103 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Practice with hands-on projects&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Practice - Hands-on projects&lt;/strong&gt;&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Status&lt;/th&gt;
       &lt;th style=&quot;text-align: left&quot;&gt;Name&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Link&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Notebook&lt;/th&gt;
       &lt;th style=&quot;text-align: left&quot;&gt;Description&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Status&lt;/th&gt;
       &lt;th style=&quot;text-align: left&quot;&gt;Date&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Research Trend Analysis&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/ResearchTrendAnalysis&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;NLP &amp;amp; text data mining and cleaning&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/ResearchTrendAnalysis&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;NLP: text data mining and cleaning&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Aug.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Fraud Detection Paysim&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/FraudDetectionPaysim&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/FraudDetectionPaysim&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Predictive analysis, Supervised Learning, Classification&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Aug.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;In-app chat message analysis&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Private&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;SQL&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;SQL: Create tables in a database and query data&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Oct.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;EDA on e-commerce data&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Private&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Product (delivery app) analytics in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Oct.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Daily Sales Forecast&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Private&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Time Series: Predictive modeling using Profet&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Oct.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;NYC taxi pickups with demographic and socio-economic data by census block group&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/GeospatialAnalysis_NYtaxi&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Geospatial data analysis: ETL, EDA, baseline modeling, Docker&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/GeospatialAnalysis_NYtaxi&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Docker, Geospatial data analysis: ETL, EDA, baseline modeling&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Nov.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Scientific Data Analysis&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/PGlab&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/PGlab&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Numeric data processing in pandas, matplotlib, Scipy, Numpy&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Nov.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;In-app chat message analysis 2&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Private&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;SQL&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Dec.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;EDA on e-commerce data 2&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Private&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Product (marketplace app) analytics in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Dec.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;BCN Traffic Forecast&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/BCN-TrafficForecast&quot;&gt;Available&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/BCN-TrafficForecast&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Geospatial data analysis: ETL, EDA, Multiclass classification&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;WiDS Datathon 2021&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Datathon&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UP Next&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;A competition hosted by Driven Data&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Up Next&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -322,7 +322,7 @@
     
       <item>
         <title>What's on an aspiring data scientist's bookmarks</title>
-        <description>&lt;p&gt;Here are my favorite free online studying materials and career prep tools which are digestible for the newbies building a data science career (including myself).&lt;/p&gt;
+        <description>&lt;p&gt;Here are my favorite free online studying materials and career prep tools for newbies building a data science career in 2021(including myself).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/bookmarks.jpg&quot; alt=&quot;Photo by Antonio DiCaterina on Unsplash&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
 
