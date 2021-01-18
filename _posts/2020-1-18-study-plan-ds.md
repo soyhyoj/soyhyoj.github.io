@@ -9,7 +9,7 @@ This morning, I came across with [Wakana's post](https://elpha.com/posts/11dt7c7
 
 My plan for 2021 is to continue learning mostly from Coursera and [free online materials that I posted previously](https://soyhyoj.github.io/2021/useful-ds-resources/). And no more DataCamp!
 
-Following are **Courses to learn foundations** and **hands-on projects** I've done so far:
+Following are **courses** and **hands-on projects** I've done so far:
 
 <br>
 
