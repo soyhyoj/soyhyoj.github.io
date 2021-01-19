@@ -9,7 +9,7 @@ This morning, I came across with [Wakana's post](https://elpha.com/posts/11dt7c7
 
 My plan for 2021 is to continue learning mostly from Coursera and [free online materials that I posted previously](https://soyhyoj.github.io/2021/useful-ds-resources/). And no more DataCamp!
 
-Following are **courses** and **hands-on projects** I've done so far:
+Following are the **courses** and **hands-on projects** I've done so far:
 
 <br>
 
@@ -45,6 +45,9 @@ Following are **courses** and **hands-on projects** I've done so far:
 | Working with Geospatial Data in Python | DataCamp | `Completed` | 03.Nov.2020 |
 | Basic Statistics by University of Amsterdam | Coursera | <span style="color:green">`50%`</span> |  |
 | Applied Machine Learning in Python by University of Michingan | Coursera | <span style="color:green">`68%`</span> |  |
+| TensorFlow, Keras and deep learning, without a PhD | [Link](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0) | <span style="color:green">`30%`</span> |  |
+| Case Studies in Neural Data Analysis | [Link](https://mark-kramer.github.io/Case-Studies-Python/intro.html) | <span style="color:green">`20%`</span> |  |
+
 
 <br>
 
