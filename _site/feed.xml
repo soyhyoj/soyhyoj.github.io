@@ -5,8 +5,8 @@
     <description>Used to study brain. Now analyzing behavior.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Jan 2021 10:30:42 +0100</pubDate>
-    <lastBuildDate>Tue, 19 Jan 2021 10:30:42 +0100</lastBuildDate>
+    <pubDate>Fri, 29 Jan 2021 19:25:16 +0100</pubDate>
+    <lastBuildDate>Fri, 29 Jan 2021 19:25:16 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -409,6 +409,68 @@
         
         
         <category>Resources</category>
+        
+      </item>
+    
+      <item>
+        <title>Project: Scientific Data Analysis</title>
+        <description>&lt;p&gt;Finally, some cleaning’s done on &lt;a href=&quot;https://github.com/soyhyoj/PGlab&quot;&gt;my very first Jupyter notebooks&lt;/a&gt; created between 2018-2019. Back then, I wasn’t capable of coding from scratch, so it was a process of literally copying &amp;amp; pasting chunks of code from the internet and running the woven code by hit-or-miss. Now that I became more proficient in Python, it was time to do some pruning and organization on these notebooks.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;why-programming&quot;&gt;Why programming?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data size
+ The data I used to deal with were time-series of neural signals (either electrical outputs or flourescent images) recorded over varying time length (minutes to hours) and its size would easily take up to GBs. Excel was just not enough to deal with these data and also very error-prone(due to dragging and modifying tens of thousands of rows at the same time).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Integrated data processing
+ To analyze this kind of experimental data, multiple software (and machines) were needed at different stages of the work (collection, retrieval, analysis and visualization). A machine at imaging facility had the software for data acquisition, a machine at the lab had the licensed software for data retrieval, and then my laptop served for anlaysis and visualization. Having limited access to the licensed softwares for analysis was another issue. I wanted an integrated solution for data retrieval, processing, statistic analysis and visualization.
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;why-python&quot;&gt;Why Python?&lt;/h2&gt;
+
+&lt;p&gt;Although I was advised to learn Matlab since it is the most abundantly used language in neuroscience laboratories, I didn’t like the fact that you still need a license for its usage which I couldn’t afford to. In the end, I chose Python over R only because it seemed to be the most widely used language in data sciences.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;results-examples&quot;&gt;Results (examples)&lt;/h2&gt;
+
+&lt;p&gt;For both types of data (images and electropyshiology recordings), the raw files (.CSV) were imported as a pandas dataframe and plotted by time.&lt;/p&gt;
+
+&lt;p&gt;For live cell imaging data, fluorescence changes (dF = F-F0) at each timepoint relative to the first X frames of each series (F0) were calculated as (F-F0)/F0 and plotted. Each line in the below figure indicates single cell response and the red box indicates the duration of 780nm light stimulation applied to the tissue sample.
+&lt;img src=&quot;/images/Caimage.png&quot; alt=&quot;Calcium traces from hippocampal neurons&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Local peaks(yellow dotted line) during the light stimulation from each trace were looked up from single traces. The time of appearance of the peaks were found and noted.
+&lt;img src=&quot;/images/Caimage-peaks.png&quot; alt=&quot;Finding the timing of local peaks using idxmax&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For electrophysiology data, local peaks were detected by using find_peaks module from scipy library.
+&lt;img src=&quot;/images/peak-detection.png&quot; alt=&quot;Peak detection to count # of firing&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After detecting the peaks, the different results from different samples were quantified for a comparison.
+&lt;img src=&quot;/images/quant-peaks.png&quot; alt=&quot;Comparing # of firing&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;benefits&quot;&gt;Benefits&lt;/h2&gt;
+&lt;p&gt;With these codes, the time I put into the preliminary analysis was reduced from days to minutes. I could understand the results of the day in real-time and plan the next experiment based on it.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
+&lt;p&gt;I’m following an &lt;a href=&quot;https://mark-kramer.github.io/Case-Studies-Python/02.html#plotting-the-erp&quot;&gt;online tutorial&lt;/a&gt; for advanced neural signal analysis in Python. This&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Nov 2020 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2020/project-pglab/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/project-pglab/</guid>
+        
+        <category>Neuroscience</category>
+        
+        <category>Analysis</category>
+        
+        <category>Statistics</category>
+        
+        
+        <category>project</category>
         
       </item>
     

@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
 
-  <title>Project: Mobile Transaction Fraud Detection</title>
-  <meta name="description" content="In this 2-week project, I aimed to try something completely different from what I practiced in the previous project. Instead of the text data, there were 6M rows of numbers. Rather than munging the data for purely personal interest, I built predictive models that can potentially address a business solution for mobile fraud detection.
+  <title>Project: Scientific Data Analysis</title>
+  <meta name="description" content="Finally, some cleaning’s done on my very first Jupyter notebooks created between 2018-2019. Back then, I wasn’t capable of coding from scratch, so it was a process of literally copying &amp; pasting chunks of code from the internet and running the woven code by hit-or-miss. Now that I became more proficient in Python, it was time to do some pruning and organization on these notebooks.
+
 
 ">
   <meta name="author" content="soyhyoj">
@@ -19,8 +20,9 @@
 
   <!-- Twitter cards -->
   <meta name="twitter:card"  content="summary">
-  <meta name="twitter:title" content="Project: Mobile Transaction Fraud Detection">
-  <meta name="twitter:description" content="In this 2-week project, I aimed to try something completely different from what I practiced in the previous project. Instead of the text data, there were 6M rows of numbers. Rather than munging the data for purely personal interest, I built predictive models that can potentially address a business solution for mobile fraud detection.
+  <meta name="twitter:title" content="Project: Scientific Data Analysis">
+  <meta name="twitter:description" content="Finally, some cleaning’s done on my very first Jupyter notebooks created between 2018-2019. Back then, I wasn’t capable of coding from scratch, so it was a process of literally copying &amp; pasting chunks of code from the internet and running the woven code by hit-or-miss. Now that I became more proficient in Python, it was time to do some pruning and organization on these notebooks.
+
 
 ">
   <meta name="twitter:creator" content="_soyhyoj">
@@ -28,8 +30,9 @@
   <!-- end of Twitter cards -->
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Project: Mobile Transaction Fraud Detection">
-  <meta property="og:description" content="In this 2-week project, I aimed to try something completely different from what I practiced in the previous project. Instead of the text data, there were 6M rows of numbers. Rather than munging the data for purely personal interest, I built predictive models that can potentially address a business solution for mobile fraud detection.
+  <meta property="og:title" content="Project: Scientific Data Analysis">
+  <meta property="og:description" content="Finally, some cleaning’s done on my very first Jupyter notebooks created between 2018-2019. Back then, I wasn’t capable of coding from scratch, so it was a process of literally copying &amp; pasting chunks of code from the internet and running the woven code by hit-or-miss. Now that I became more proficient in Python, it was time to do some pruning and organization on these notebooks.
+
 
 ">
   <meta property="og:image" content="/images/profile.jpg" />
@@ -49,7 +52,7 @@
   <meta name="theme-color" content="#ffffff">
   
   <link rel="stylesheet" href="/css/main.css?1611944716936060390">
-  <link rel="canonical" href="http://localhost:4000/2020/project-fraud-detection/">
+  <link rel="canonical" href="http://localhost:4000/2020/project-pglab/">
   <link rel="alternate" type="application/rss+xml" title="HYOLAB" href="/feed.xml">
 </head>
 
@@ -151,29 +154,59 @@
         <article class="post-container post-container--single">
   <header class="post-header">
     <div class="post-meta">
-      <time datetime="2020-09-19 00:00" class="post-meta__date date">19 Sep 2020</time>
+      <time datetime="2020-11-20 00:00" class="post-meta__date date">20 Nov 2020</time>
       
-      &#8226; <span class="post-meta__tags">on <a href="/tags/#Mobile">Mobile</a>, <a href="/tags/#Fraud detection">Fraud detection</a>, <a href="/tags/#Predictive Analysis">Predictive Analysis</a>, <a href="/tags/#Machine Learning">Machine Learning</a>, <a href="/tags/#CodeOp">CodeOp</a></span>
+      &#8226; <span class="post-meta__tags">on <a href="/tags/#Neuroscience">Neuroscience</a>, <a href="/tags/#Analysis">Analysis</a>, <a href="/tags/#Statistics">Statistics</a></span>
       
     </div>
-    <h1 class="post-title">Project: Mobile Transaction Fraud Detection</h1>
+    <h1 class="post-title">Project: Scientific Data Analysis</h1>
   </header>
 
   <section class="post">
-    <p>In this 2-week project, I aimed to try something completely different from what I practiced in the <a href="https://soyhyoj.github.io/2020/project-research-trend-analysis/">previous project</a>. Instead of the text data, there were 6M rows of numbers. Rather than munging the data for purely personal interest, I built predictive models that can potentially address a business solution for mobile fraud detection.</p>
+    <p>Finally, some cleaning’s done on <a href="https://github.com/soyhyoj/PGlab">my very first Jupyter notebooks</a> created between 2018-2019. Back then, I wasn’t capable of coding from scratch, so it was a process of literally copying &amp; pasting chunks of code from the internet and running the woven code by hit-or-miss. Now that I became more proficient in Python, it was time to do some pruning and organization on these notebooks.
+<br /></p>
 
-<p>This was a collaborative project done by <a href="https://github.com/mariagaya">Maria Gayà Fiol</a> and myself. The data we selected was <a href="https://www.kaggle.com/ntnu-testimon/paysim1">a simulated mobile money transaction log available on the Kaggle website</a>, generated by <a href="https://github.com/EdgarLopezPhD/PaySim">PaySim</a> based on a sample of real transactions extracted from one month of financial logs from a mobile money service implemented in an African country.
-(Reference: E. A. Lopez-Rojas , A. Elmir, and S. Axelsson. “PaySim: A financial mobile money simulator for fraud detection”. In: The 28th European Modeling and Simulation Symposium-EMSS, Larnaca, Cyprus. 2016).</p>
+<h2 id="why-programming">Why programming?</h2>
 
-<p>Our goal was to understand the features closely related to fraudulent profit by exploratory data analysis and make good predictions on the unseen data based on our findings. To enhance prediction performance, we implemented different machine learning algorithms including logistic regression, random forest, XGBoost, and neural network.</p>
+<ol>
+  <li>
+    <p>Data size
+ The data I used to deal with were time-series of neural signals (either electrical outputs or flourescent images) recorded over varying time length (minutes to hours) and its size would easily take up to GBs. Excel was just not enough to deal with these data and also very error-prone(due to dragging and modifying tens of thousands of rows at the same time).</p>
+  </li>
+  <li>
+    <p>Integrated data processing
+ To analyze this kind of experimental data, multiple software (and machines) were needed at different stages of the work (collection, retrieval, analysis and visualization). A machine at imaging facility had the software for data acquisition, a machine at the lab had the licensed software for data retrieval, and then my laptop served for anlaysis and visualization. Having limited access to the licensed softwares for analysis was another issue. I wanted an integrated solution for data retrieval, processing, statistic analysis and visualization.
+<br /></p>
+  </li>
+</ol>
 
-<p>The main challenge of this data was to predict its highly unbalanced binary targets. The population of real fraudulent activity among the entire records was only 0.1%. Therefore, it was crucial to detect all possibly-fraud transactions, lowering the false-negative cases(=fail to detect real frauds; FN) even if it means to involve some false positives(=falsely asserting a case as a fraud when it’s not; FP).</p>
+<h2 id="why-python">Why Python?</h2>
 
-<p>The benefit of this synthetic data is that analysts like us could conduct fraud analytics overcoming the lack of public access to private records. However, its simplicity in feature attributes easily led us to the overfitting of algorithms. As our observation, implementing the logistic regression was enough to detect 99% of the fraud transactions maintaining a relatively low FP rate(6.5%) when introduced ‘class_weight’ hyperparameter to compensate for the imbalance present in the dataset.</p>
+<p>Although I was advised to learn Matlab since it is the most abundantly used language in neuroscience laboratories, I didn’t like the fact that you still need a license for its usage which I couldn’t afford to. In the end, I chose Python over R only because it seemed to be the most widely used language in data sciences.
+<br /></p>
 
-<p><a href="https://github.com/soyhyoj/FraudDetectionPaysim">Check this repository where my part of the data analysis and modeling is available.</a></p>
+<h2 id="results-examples">Results (examples)</h2>
 
-<p><img src="/images/project-fraud-detection.png" alt="confusion-matrix" class="img-responsive" /></p>
+<p>For both types of data (images and electropyshiology recordings), the raw files (.CSV) were imported as a pandas dataframe and plotted by time.</p>
+
+<p>For live cell imaging data, fluorescence changes (dF = F-F0) at each timepoint relative to the first X frames of each series (F0) were calculated as (F-F0)/F0 and plotted. Each line in the below figure indicates single cell response and the red box indicates the duration of 780nm light stimulation applied to the tissue sample.
+<img src="/images/Caimage.png" alt="Calcium traces from hippocampal neurons" class="img-responsive" /></p>
+
+<p>Local peaks(yellow dotted line) during the light stimulation from each trace were looked up from single traces. The time of appearance of the peaks were found and noted.
+<img src="/images/Caimage-peaks.png" alt="Finding the timing of local peaks using idxmax" class="img-responsive" /></p>
+
+<p>For electrophysiology data, local peaks were detected by using find_peaks module from scipy library.
+<img src="/images/peak-detection.png" alt="Peak detection to count # of firing" class="img-responsive" /></p>
+
+<p>After detecting the peaks, the different results from different samples were quantified for a comparison.
+<img src="/images/quant-peaks.png" alt="Comparing # of firing" class="img-responsive" /></p>
+
+<h2 id="benefits">Benefits</h2>
+<p>With these codes, the time I put into the preliminary analysis was reduced from days to minutes. I could understand the results of the day in real-time and plan the next experiment based on it.
+<br /></p>
+
+<h2 id="whats-next">What’s next?</h2>
+<p>I’m following an <a href="https://mark-kramer.github.io/Case-Studies-Python/02.html#plotting-the-erp">online tutorial</a> for advanced neural signal analysis in Python. This</p>
 
   </section>
 
