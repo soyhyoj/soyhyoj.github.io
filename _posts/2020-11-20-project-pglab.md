@@ -11,10 +11,10 @@ Finally, some cleaning's done on [my very first Jupyter notebooks](https://githu
 ## Why programming?
 
 1. Data size
-    The data I used to deal with were time-series of neural signals (either electrical outputs or flourescent images) recorded over varying time length (minutes to hours) and its size would easily take up to GBs. Excel was just not enough to deal with these data and also very error-prone(due to dragging and modifying tens of thousands of rows at the same time).
+    The data I used to deal with were time-series of neural signals (either electrical outputs or fluorescent images) recorded over varying time lengths (minutes to hours) and its size would easily take up to GBs. Excel was just not enough to deal with these data and also very error-prone(due to dragging and modifying tens of thousands of rows at the same time).
 
 2. Integrated data processing
-    To analyze this kind of experimental data, multiple software (and machines) were needed at different stages of the work (collection, retrieval, analysis and visualization). A machine at imaging facility had the software for data acquisition, a machine at the lab had the licensed software for data retrieval, and then my laptop served for anlaysis and visualization. Having limited access to the licensed softwares for analysis was another issue. I wanted an integrated solution for data retrieval, processing, statistic analysis and visualization.
+    To analyze this kind of experimental data, multiple software (and machines) were needed at different stages of the work (collection, retrieval, analysis and visualization). A machine at the imaging facility had the software for data acquisition, a machine at the lab had the licensed software for data retrieval, and then my laptop served for analysis and visualization. Having limited access to the licensed software for analysis was another issue. I wanted an integrated solution for data retrieval, processing, statistic analysis and visualization.
 <br>
 
 ## Why Python?
@@ -24,24 +24,21 @@ Although I was advised to learn Matlab since it is the most abundantly used lang
 
 ## Results (examples)
 
-For both types of data (images and electropyshiology recordings), the raw files (.CSV) were imported as a pandas dataframe and plotted by time.
+For both types of data (images and electrophysiology recordings), the raw files (.CSV) were imported as a pandas dataframe and plotted by time.
 
-For live cell imaging data, fluorescence changes (dF = F-F0) at each timepoint relative to the first X frames of each series (F0) were calculated as (F-F0)/F0 and plotted. Each line in the below figure indicates single cell response and the red box indicates the duration of 780nm light stimulation applied to the tissue sample.
+For live-cell imaging data, fluorescence changes (dF = F-F0) at each time point relative to the first X frames of each series (F0) were calculated as (F-F0)/F0 and plotted. Each line in the below figure indicates single-cell response and the red box indicates the duration of 780nm light stimulation applied to the tissue sample.<br><br>
 ![Calcium traces from hippocampal neurons](/images/Caimage.png){:class="img-responsive"}
 
-Local peaks(yellow dotted line) during the light stimulation from each trace were looked up from single traces. The time of appearance of the peaks were found and noted.
+Local peaks(yellow dotted line) during the light stimulation from each trace were looked up from single traces. The time of appearance of each peak was found and noted.<br>
 ![Finding the timing of local peaks using idxmax](/images/Caimage-peaks.png){:class="img-responsive"}
 
-For electrophysiology data, local peaks were detected by using find_peaks module from scipy library.
+For electrophysiology data, local peaks were detected (orange X marks) by using the find_peaks module from scipy library.<br>
 ![Peak detection to count # of firing](/images/peak-detection.png){:class="img-responsive"}
 
-After detecting the peaks, the different results from different samples were quantified for a comparison.
+After the peak detection, the results were quantified for a comparison.<br>
 ![Comparing # of firing](/images/quant-peaks.png){:class="img-responsive"}
-
-
-## Benefits
-With these codes, the time I put into the preliminary analysis was reduced from days to minutes. I could understand the results of the day in real-time and plan the next experiment based on it.
 <br>
 
-## What's next?
-I'm following an [online tutorial](https://mark-kramer.github.io/Case-Studies-Python/02.html#plotting-the-erp) for advanced neural signal analysis in Python. This 
+## Impact
+Using these codes, the time I put into the preliminary analysis was reduced from days to minutes. I could understand the results of the day in real-time and plan the next experiment based on it.
+<br>

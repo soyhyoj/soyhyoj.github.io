@@ -51,7 +51,7 @@
   <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
   
-  <link rel="stylesheet" href="/css/main.css?1611944716936060390">
+  <link rel="stylesheet" href="/css/main.css?1611945253225465050">
   <link rel="canonical" href="http://localhost:4000/2020/project-pglab/">
   <link rel="alternate" type="application/rss+xml" title="HYOLAB" href="/feed.xml">
 </head>
@@ -171,11 +171,11 @@
 <ol>
   <li>
     <p>Data size
- The data I used to deal with were time-series of neural signals (either electrical outputs or flourescent images) recorded over varying time length (minutes to hours) and its size would easily take up to GBs. Excel was just not enough to deal with these data and also very error-prone(due to dragging and modifying tens of thousands of rows at the same time).</p>
+ The data I used to deal with were time-series of neural signals (either electrical outputs or fluorescent images) recorded over varying time lengths (minutes to hours) and its size would easily take up to GBs. Excel was just not enough to deal with these data and also very error-prone(due to dragging and modifying tens of thousands of rows at the same time).</p>
   </li>
   <li>
     <p>Integrated data processing
- To analyze this kind of experimental data, multiple software (and machines) were needed at different stages of the work (collection, retrieval, analysis and visualization). A machine at imaging facility had the software for data acquisition, a machine at the lab had the licensed software for data retrieval, and then my laptop served for anlaysis and visualization. Having limited access to the licensed softwares for analysis was another issue. I wanted an integrated solution for data retrieval, processing, statistic analysis and visualization.
+ To analyze this kind of experimental data, multiple software (and machines) were needed at different stages of the work (collection, retrieval, analysis and visualization). A machine at the imaging facility had the software for data acquisition, a machine at the lab had the licensed software for data retrieval, and then my laptop served for analysis and visualization. Having limited access to the licensed software for analysis was another issue. I wanted an integrated solution for data retrieval, processing, statistic analysis and visualization.
 <br /></p>
   </li>
 </ol>
@@ -187,26 +187,24 @@
 
 <h2 id="results-examples">Results (examples)</h2>
 
-<p>For both types of data (images and electropyshiology recordings), the raw files (.CSV) were imported as a pandas dataframe and plotted by time.</p>
+<p>For both types of data (images and electrophysiology recordings), the raw files (.CSV) were imported as a pandas dataframe and plotted by time.</p>
 
-<p>For live cell imaging data, fluorescence changes (dF = F-F0) at each timepoint relative to the first X frames of each series (F0) were calculated as (F-F0)/F0 and plotted. Each line in the below figure indicates single cell response and the red box indicates the duration of 780nm light stimulation applied to the tissue sample.
+<p>For live-cell imaging data, fluorescence changes (dF = F-F0) at each time point relative to the first X frames of each series (F0) were calculated as (F-F0)/F0 and plotted. Each line in the below figure indicates single-cell response and the red box indicates the duration of 780nm light stimulation applied to the tissue sample.<br /><br />
 <img src="/images/Caimage.png" alt="Calcium traces from hippocampal neurons" class="img-responsive" /></p>
 
-<p>Local peaks(yellow dotted line) during the light stimulation from each trace were looked up from single traces. The time of appearance of the peaks were found and noted.
+<p>Local peaks(yellow dotted line) during the light stimulation from each trace were looked up from single traces. The time of appearance of each peak was found and noted.<br />
 <img src="/images/Caimage-peaks.png" alt="Finding the timing of local peaks using idxmax" class="img-responsive" /></p>
 
-<p>For electrophysiology data, local peaks were detected by using find_peaks module from scipy library.
+<p>For electrophysiology data, local peaks were detected (orange X marks) by using the find_peaks module from scipy library.<br />
 <img src="/images/peak-detection.png" alt="Peak detection to count # of firing" class="img-responsive" /></p>
 
-<p>After detecting the peaks, the different results from different samples were quantified for a comparison.
-<img src="/images/quant-peaks.png" alt="Comparing # of firing" class="img-responsive" /></p>
-
-<h2 id="benefits">Benefits</h2>
-<p>With these codes, the time I put into the preliminary analysis was reduced from days to minutes. I could understand the results of the day in real-time and plan the next experiment based on it.
+<p>After the peak detection, the results were quantified for a comparison.<br />
+<img src="/images/quant-peaks.png" alt="Comparing # of firing" class="img-responsive" />
 <br /></p>
 
-<h2 id="whats-next">What’s next?</h2>
-<p>I’m following an <a href="https://mark-kramer.github.io/Case-Studies-Python/02.html#plotting-the-erp">online tutorial</a> for advanced neural signal analysis in Python. This</p>
+<h2 id="impact">Impact</h2>
+<p>Using these codes, the time I put into the preliminary analysis was reduced from days to minutes. I could understand the results of the day in real-time and plan the next experiment based on it.
+<br /></p>
 
   </section>
 
@@ -230,7 +228,7 @@
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="/js/main.js?1611944716936060390"></script>
+<script type="text/javascript" src="/js/main.js?1611945253225465050"></script>
 
 
     </div>
