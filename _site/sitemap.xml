@@ -113,7 +113,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2021-02-07T10:29:35+01:00</lastmod>
+        <lastmod>2021-02-07T10:36:30+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -132,7 +132,7 @@
     <url>
       <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2021-02-07T10:29:35+01:00</lastmod>
+        <lastmod>2021-02-07T10:36:30+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -151,7 +151,7 @@
     <url>
       <loc>http://localhost:4000/assets/css/style.css</loc>
       
-        <lastmod>2021-02-07T10:29:35+01:00</lastmod>
+        <lastmod>2021-02-07T10:36:30+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
