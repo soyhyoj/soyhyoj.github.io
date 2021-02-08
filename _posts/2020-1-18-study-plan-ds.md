@@ -47,7 +47,7 @@ Following are the **courses** and **hands-on projects** I've done so far:
 | Applied Machine Learning in Python by University of Michingan | Coursera | <span style="color:green">`68%`</span> |  |
 | TensorFlow, Keras and deep learning, without a PhD | [Link](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/#0) | <span style="color:green">`30%`</span> |  |
 | Case Studies in Neural Data Analysis | [Link](https://mark-kramer.github.io/Case-Studies-Python/intro.html) | <span style="color:green">`20%`</span> |  |
-| Hands-On Programming with R | [Link](https://rstudio-education.github.io/hopr/) | 'Ready to start' |  |
+| Hands-On Programming with R | [Link](https://rstudio-education.github.io/hopr/) | <span style="color:green">`25%`</span> |  |
 | R for Data Science | [Link](https://r4ds.had.co.nz/) | 'Ready to start' |  |
 | A Gentle Introduction to Tidy Statistics in R | [Link](https://rstudio.com/resources/webinars/a-gentle-introduction-to-tidy-statistics-in-r/) | 'Ready to start' |  |
 
