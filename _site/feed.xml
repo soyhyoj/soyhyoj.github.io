@@ -5,8 +5,8 @@
     <description>Used to study brain. Now analyzing behavior.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 09 Feb 2021 16:08:16 +0100</pubDate>
-    <lastBuildDate>Tue, 09 Feb 2021 16:08:16 +0100</lastBuildDate>
+    <pubDate>Tue, 16 Feb 2021 15:54:58 +0100</pubDate>
+    <lastBuildDate>Tue, 16 Feb 2021 15:54:58 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -214,7 +214,7 @@
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Hands-On Programming with R&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://rstudio-education.github.io/hopr/&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;40%&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;60%&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -249,14 +249,14 @@
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Research Trend Analysis&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/ResearchTrendAnalysis&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/ResearchTrendAnalysis&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;NLP: text data mining and cleaning&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Aug.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Fraud Detection Paysim&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/FraudDetectionPaysim&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Fraud Detection Paysim in Python&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/FraudDetectionPaysim/tree/master/Fraud%20Detection%20in%20Python&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Predictive analysis, Supervised Learning, Classification&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Aug.2020&lt;/td&gt;
@@ -284,14 +284,14 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;NYC taxi pickups with demographic and socio-economic data by census block group&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/GeospatialAnalysis_NYtaxi&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/GeospatialAnalysis_NYtaxi&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Docker, Geospatial data analysis: ETL, EDA, baseline modeling&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Nov.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Scientific Data Analysis&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/PGlab&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/PGlab&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Numeric data processing in pandas, matplotlib, Scipy, Numpy&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Completed&lt;/code&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Nov.2020&lt;/td&gt;
@@ -311,18 +311,25 @@
       &lt;td style=&quot;text-align: left&quot;&gt;Dec.2020&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;BCN Traffic Forecast&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/BCN-TrafficForecast&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Geospatial data analysis: ETL, EDA, Multiclass classification&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;WiDS Datathon 2021&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Datathon&lt;/td&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Feb.2021&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Fraud Detection Paysim in R&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/FraudDetectionPaysim/tree/master/Fraud%20Detection%20in%20R&quot;&gt;GitHub&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Translating a Python project into R for hands-on practice&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Aug.2020&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;BCN Traffic Forecast&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://github.com/soyhyoj/BCN-TrafficForecast&quot;&gt;Link&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Geospatial data analysis: ETL, EDA, Multiclass classification&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color:green&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ongoing&lt;/code&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;[GitHub]&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines&lt;/td&gt;
